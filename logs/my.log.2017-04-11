@@ -1,0 +1,59 @@
+2017-04-11 15:14:19,741  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3436 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-11 15:14:19,744 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-11 15:14:19,745  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-11 15:14:24,899  INFO DemoApplication:57 ---- Started DemoApplication in 5.498 seconds (JVM running for 5.743)
+2017-04-11 15:41:44,765  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5156 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-11 15:41:44,768 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-11 15:41:44,769  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-11 15:41:49,692  INFO DemoApplication:57 ---- Started DemoApplication in 5.292 seconds (JVM running for 5.556)
+2017-04-11 15:42:00,740  INFO TestController:35 ---- ******处理测试日志请求******
+2017-04-11 15:56:08,960  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1596 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-11 15:56:08,963 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-11 15:56:08,964  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-11 15:56:14,123  INFO DemoApplication:57 ---- Started DemoApplication in 5.512 seconds (JVM running for 5.933)
+2017-04-11 15:56:30,033  INFO WebLogAspect:41 ---- URL: http://localhost:8080/hello
+2017-04-11 15:56:30,034  INFO WebLogAspect:42 ---- HTTP_METHOD: GET
+2017-04-11 15:56:30,036  INFO WebLogAspect:43 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-11 15:56:30,038  INFO WebLogAspect:44 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-11 15:56:30,039  INFO WebLogAspect:46 ---- ARGS : []
+2017-04-11 15:56:30,054  INFO WebLogAspect:52 ---- RESPONSE: Hello World!!!
+2017-04-11 15:56:30,055  INFO WebLogAspect:53 ---- SPEND TIME: 22
+2017-04-11 15:57:09,378  INFO WebLogAspect:41 ---- URL: http://localhost:8080/hello
+2017-04-11 15:57:09,379  INFO WebLogAspect:42 ---- HTTP_METHOD: GET
+2017-04-11 15:57:09,379  INFO WebLogAspect:43 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-11 15:57:09,379  INFO WebLogAspect:44 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-11 15:57:09,379  INFO WebLogAspect:46 ---- ARGS : []
+2017-04-11 15:57:09,379  INFO WebLogAspect:52 ---- RESPONSE: Hello World!!!
+2017-04-11 15:57:09,380  INFO WebLogAspect:53 ---- SPEND TIME: 2
+2017-04-11 16:43:59,755  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3912 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-11 16:43:59,757 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-11 16:43:59,758  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-11 16:44:22,739  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5464 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-11 16:44:22,742 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-11 16:44:22,744  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-11 16:44:28,376  INFO DemoApplication:57 ---- Started DemoApplication in 5.971 seconds (JVM running for 6.236)
+2017-04-11 16:44:37,420  INFO WebLogAspect:47 ---- URL: http://localhost:8080/hello
+2017-04-11 16:44:37,420  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-11 16:44:37,423  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-11 16:44:37,425  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-11 16:44:37,425  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-11 16:44:37,440  INFO WebLogAspect:58 ---- RESPONSE: Hello World!!!
+2017-04-11 16:44:37,441  INFO WebLogAspect:59 ---- SPEND TIME: 21
+2017-04-11 16:49:55,878  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5720 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-11 16:49:55,880 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-11 16:49:55,881  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-11 16:50:01,483  INFO DemoApplication:57 ---- Started DemoApplication in 5.961 seconds (JVM running for 6.274)
+2017-04-11 16:50:06,121  INFO WebLogAspect:47 ---- URL: http://localhost:8080/hello
+2017-04-11 16:50:06,122  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-11 16:50:06,124  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-11 16:50:06,128  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-11 16:50:06,129  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-11 16:50:06,134  INFO WebLogAspect:58 ---- RESPONSE: Hello World!!!
+2017-04-11 16:50:06,135  INFO WebLogAspect:59 ---- SPEND TIME: 14
+2017-04-11 16:56:09,298  INFO WebLogAspect:47 ---- URL: http://localhost:8080/hello
+2017-04-11 16:56:09,298  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-11 16:56:09,298  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-11 16:56:09,299  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-11 16:56:09,299  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-11 16:56:09,299  INFO WebLogAspect:58 ---- RESPONSE: Hello World!!!
+2017-04-11 16:56:09,299  INFO WebLogAspect:59 ---- SPEND TIME: 2

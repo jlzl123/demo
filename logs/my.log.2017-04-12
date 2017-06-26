@@ -1,0 +1,396 @@
+2017-04-12 10:43:36,848  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3840 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 10:43:36,853 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 10:43:36,854  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 10:45:02,261  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 904 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 10:45:02,264 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 10:45:02,265  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 10:52:23,722  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3388 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 10:52:23,728 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 10:52:23,729  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:01:45,805  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4672 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:01:45,807 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:01:45,808  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:02:50,405  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 576 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:02:50,408 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:02:50,409  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:03:32,807  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5384 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:03:32,809 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:03:32,810  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:05:22,657  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5436 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:05:22,659 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:05:22,660  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:07:57,578  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4332 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:07:57,582 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:07:57,585  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:08:22,472  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4188 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:08:22,474 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:08:22,475  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:08:28,111  INFO DemoApplication:57 ---- Started DemoApplication in 5.974 seconds (JVM running for 6.24)
+2017-04-12 11:13:29,744  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 2364 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:13:29,748 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:13:29,749  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:13:37,508  INFO DemoApplication:57 ---- Started DemoApplication in 8.29 seconds (JVM running for 8.683)
+2017-04-12 11:14:52,603  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 2376 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:14:52,605 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:14:52,606  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:15:16,664  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1844 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:15:16,669 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:15:16,670  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:15:23,812  INFO DemoApplication:57 ---- Started DemoApplication in 7.548 seconds (JVM running for 7.896)
+2017-04-12 11:17:27,742  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4516 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:17:27,748 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:17:27,749  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:17:35,530  INFO DemoApplication:57 ---- Started DemoApplication in 8.219 seconds (JVM running for 8.599)
+2017-04-12 11:18:49,320  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 11:18:49,321  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 11:18:49,321  INFO WebLogAspect:47 ---- URL: http://localhost:8080/log
+2017-04-12 11:18:49,322  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 11:18:49,323  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 11:18:49,324  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.testLog
+2017-04-12 11:18:49,324  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 11:18:49,342  INFO TestController:35 ---- ******处理测试日志请求******
+2017-04-12 11:18:49,346  INFO WebLogAspect:58 ---- RESPONSE: 测试日志
+2017-04-12 11:18:49,349  INFO WebLogAspect:59 ---- SPEND TIME: 28
+2017-04-12 11:18:49,352  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.testLog())	Use time : 30 ms!
+2017-04-12 11:18:49,354  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 11:18:49,356  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 11:37:59,398  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5392 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:37:59,407 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:37:59,408  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:38:05,136  INFO DemoApplication:57 ---- Started DemoApplication in 6.074 seconds (JVM running for 6.334)
+2017-04-12 11:40:40,662  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5260 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 11:40:40,669 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 11:40:40,670  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 11:40:46,522  INFO DemoApplication:57 ---- Started DemoApplication in 6.203 seconds (JVM running for 6.459)
+2017-04-12 13:48:05,653  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3344 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 13:48:05,657 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 13:48:05,658  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 13:48:11,371  INFO DemoApplication:57 ---- Started DemoApplication in 6.08 seconds (JVM running for 6.427)
+2017-04-12 13:48:50,799  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5076 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 13:48:50,801 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 13:48:50,801  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 13:48:56,364  INFO DemoApplication:57 ---- Started DemoApplication in 5.9 seconds (JVM running for 6.167)
+2017-04-12 13:54:25,920  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1368 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 13:54:25,922 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 13:54:25,922  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 13:54:31,660  INFO DemoApplication:57 ---- Started DemoApplication in 6.1 seconds (JVM running for 6.378)
+2017-04-12 14:20:59,761  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5816 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 14:20:59,763 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 14:20:59,764  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 14:21:05,708  INFO DemoApplication:57 ---- Started DemoApplication in 6.374 seconds (JVM running for 6.68)
+2017-04-12 14:21:13,616  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 14:21:13,617  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 14:21:13,617  INFO WebLogAspect:47 ---- URL: http://localhost:8080/log
+2017-04-12 14:21:13,617  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:21:13,618  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:21:13,618  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.testLog
+2017-04-12 14:21:13,619  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:21:13,628  INFO TestController:36 ---- ******处理测试日志请求******
+2017-04-12 14:21:13,628  INFO WebLogAspect:58 ---- RESPONSE: 测试日志
+2017-04-12 14:21:13,629  INFO WebLogAspect:59 ---- SPEND TIME: 12
+2017-04-12 14:21:13,629  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.testLog())	Use time : 13 ms!
+2017-04-12 14:21:13,630  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 14:21:13,630  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.testLog())
+2017-04-12 14:21:24,462  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(void com.example.web.TestController.getAC())
+2017-04-12 14:21:24,462  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(void com.example.web.TestController.getAC())
+2017-04-12 14:21:24,463  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getAC
+2017-04-12 14:21:24,463  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:21:24,463  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:21:24,463  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getAC
+2017-04-12 14:21:24,464  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:21:24,467  INFO WebLogAspect:58 ---- RESPONSE: null
+2017-04-12 14:21:24,468  INFO WebLogAspect:59 ---- SPEND TIME: 5
+2017-04-12 14:21:24,468  INFO UserServiceAspect:48 ---- around execution(void com.example.web.TestController.getAC())	Use time : 6 ms!
+2017-04-12 14:21:24,469  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(void com.example.web.TestController.getAC())
+2017-04-12 14:21:24,469  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(void com.example.web.TestController.getAC())
+2017-04-12 14:22:15,356  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5600 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 14:22:15,358 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 14:22:15,358  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 14:22:21,061  INFO DemoApplication:57 ---- Started DemoApplication in 6.042 seconds (JVM running for 6.338)
+2017-04-12 14:22:27,527  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:27,528  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:27,528  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getAC
+2017-04-12 14:22:27,528  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:22:27,529  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:22:27,530  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getAC
+2017-04-12 14:22:27,530  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:22:27,540  INFO WebLogAspect:58 ---- RESPONSE: test
+2017-04-12 14:22:27,541  INFO WebLogAspect:59 ---- SPEND TIME: 13
+2017-04-12 14:22:27,542  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.getAC())	Use time : 14 ms!
+2017-04-12 14:22:27,543  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:27,544  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:38,845  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:38,845  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:38,845  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getAC
+2017-04-12 14:22:38,846  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:22:38,846  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:22:38,846  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getAC
+2017-04-12 14:22:38,846  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:22:38,847  INFO WebLogAspect:58 ---- RESPONSE: test
+2017-04-12 14:22:38,847  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-04-12 14:22:38,847  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.getAC())	Use time : 2 ms!
+2017-04-12 14:22:38,847  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:22:38,847  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:50,374  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:50,375  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:50,376  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getAC
+2017-04-12 14:23:50,376  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:23:50,376  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:23:50,377  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getAC
+2017-04-12 14:23:50,377  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:23:50,378  INFO WebLogAspect:58 ---- RESPONSE: test
+2017-04-12 14:23:50,379  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-04-12 14:23:50,380  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.getAC())	Use time : 5 ms!
+2017-04-12 14:23:50,380  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:50,380  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:58,233  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:58,233  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:58,233  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getAC
+2017-04-12 14:23:58,233  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:23:58,234  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:23:58,234  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getAC
+2017-04-12 14:23:58,234  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:23:58,234  INFO WebLogAspect:58 ---- RESPONSE: test
+2017-04-12 14:23:58,235  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-04-12 14:23:58,235  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.getAC())	Use time : 2 ms!
+2017-04-12 14:23:58,235  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:23:58,236  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:24:55,540  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:24:55,541  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:24:55,541  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getAC
+2017-04-12 14:24:55,541  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 14:24:55,541  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 14:24:55,541  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getAC
+2017-04-12 14:24:55,542  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 14:24:55,542  INFO WebLogAspect:58 ---- RESPONSE: test
+2017-04-12 14:24:55,542  INFO WebLogAspect:59 ---- SPEND TIME: 1
+2017-04-12 14:24:55,542  INFO UserServiceAspect:48 ---- around execution(String com.example.web.TestController.getAC())	Use time : 1 ms!
+2017-04-12 14:24:55,542  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 14:24:55,543  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(String com.example.web.TestController.getAC())
+2017-04-12 15:01:03,349  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5736 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 15:01:03,351 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 15:01:03,351  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 15:01:10,058  INFO DemoApplication:57 ---- Started DemoApplication in 7.073 seconds (JVM running for 7.378)
+2017-04-12 15:01:22,210  INFO UserServiceAspect:43 ---- UserAspect()切入点的环绕通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:01:22,211  INFO UserServiceAspect:28 ---- UserAspect()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:01:22,217  INFO UserService:21 ---- 根据id获取用户信息
+2017-04-12 15:01:22,218  INFO UserServiceAspect:48 ---- around execution(User com.example.aspect.pointcut.UserService.getUser(Long))	Use time : 7 ms!
+2017-04-12 15:01:22,218  INFO UserServiceAspect:33 ---- UserAspect()切入点的后置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:01:22,218  INFO UserServiceAspect:38 ---- UserAspect()切入点的返回后通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:20:40,132  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4328 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 15:20:40,135 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 15:20:40,136  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 15:20:45,518  INFO DemoApplication:57 ---- Started DemoApplication in 5.699 seconds (JVM running for 5.964)
+2017-04-12 15:21:09,606  INFO WebLogAspect:47 ---- URL: http://localhost:8080/getUser
+2017-04-12 15:21:09,606  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 15:21:09,608  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 15:21:09,611  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.getUser
+2017-04-12 15:21:09,612  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 15:21:09,624  INFO WebLogAspect:58 ---- RESPONSE: username:张三
+password:admin1111  -1519161455
+2017-04-12 15:21:09,625  INFO WebLogAspect:59 ---- SPEND TIME: 20
+2017-04-12 15:22:30,344  INFO UserServiceAspect:46 ---- UserAspect()切入点的环绕通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:22:30,344  INFO UserServiceAspect:66 ---- method()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:22:30,344  INFO UserServiceAspect:31 ---- UserAspect()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:22:30,358  INFO UserService:20 ---- 根据id获取用户信息
+2017-04-12 15:22:30,359  INFO UserServiceAspect:51 ---- around execution(User com.example.aspect.pointcut.UserService.getUser(Long))	Use time : 15 ms!
+2017-04-12 15:22:30,360  INFO UserServiceAspect:36 ---- UserAspect()切入点的后置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:22:30,360  INFO UserServiceAspect:41 ---- UserAspect()切入点的返回后通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:24:08,832  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 628 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 15:24:08,834 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 15:24:08,835  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 15:24:14,447  INFO DemoApplication:57 ---- Started DemoApplication in 5.952 seconds (JVM running for 6.219)
+2017-04-12 15:24:27,797  INFO UserServiceAspect:46 ---- UserAspect()切入点的环绕通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:24:27,847  INFO UserServiceAspect:66 ---- 1  method()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:24:27,848  INFO UserServiceAspect:31 ---- UserAspect()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:24:27,861  INFO UserService:20 ---- 根据id获取用户信息
+2017-04-12 15:24:27,862  INFO UserServiceAspect:51 ---- around execution(User com.example.aspect.pointcut.UserService.getUser(Long))	Use time : 64 ms!
+2017-04-12 15:24:27,862  INFO UserServiceAspect:36 ---- UserAspect()切入点的后置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 15:24:27,862  INFO UserServiceAspect:41 ---- UserAspect()切入点的返回后通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-04-12 17:27:29,878  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1116 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 17:27:29,880 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 17:27:29,880  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 17:27:36,692  INFO DemoApplication:57 ---- Started DemoApplication in 7.158 seconds (JVM running for 7.412)
+2017-04-12 17:27:44,993  INFO WebLogAspect:47 ---- URL: http://localhost:8080/
+2017-04-12 17:27:44,994  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:27:44,995  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:27:44,997  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Index
+2017-04-12 17:27:44,998  INFO WebLogAspect:52 ---- ARGS : [{}]
+2017-04-12 17:27:45,009  INFO WebLogAspect:58 ---- RESPONSE: index
+2017-04-12 17:27:45,009  INFO WebLogAspect:59 ---- SPEND TIME: 16
+2017-04-12 17:27:56,032  INFO WebLogAspect:47 ---- URL: http://localhost:8080/Hello
+2017-04-12 17:27:56,037  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:27:56,039  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:27:56,040  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Hello
+2017-04-12 17:27:56,041  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:27:56,041  INFO WebLogAspect:58 ---- RESPONSE: hello
+2017-04-12 17:27:56,041  INFO WebLogAspect:59 ---- SPEND TIME: 9
+2017-04-12 17:29:14,505  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1332 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 17:29:14,509 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 17:29:14,511  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 17:29:20,903  INFO DemoApplication:57 ---- Started DemoApplication in 6.721 seconds (JVM running for 6.993)
+2017-04-12 17:29:24,816  INFO WebLogAspect:47 ---- URL: http://localhost:8080/Hello
+2017-04-12 17:29:24,816  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:29:24,816  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:29:24,818  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Hello
+2017-04-12 17:29:24,818  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:29:24,829  INFO WebLogAspect:58 ---- RESPONSE: hello
+2017-04-12 17:29:24,830  INFO WebLogAspect:59 ---- SPEND TIME: 14
+2017-04-12 17:29:29,309  INFO WebLogAspect:47 ---- URL: http://localhost:8080/
+2017-04-12 17:29:29,310  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:29:29,310  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:29:29,311  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Index
+2017-04-12 17:29:29,311  INFO WebLogAspect:52 ---- ARGS : [{}]
+2017-04-12 17:29:29,311  INFO WebLogAspect:58 ---- RESPONSE: index
+2017-04-12 17:29:29,313  INFO WebLogAspect:59 ---- SPEND TIME: 4
+2017-04-12 17:29:33,327  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:29:33,328  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:29:33,329  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:29:33,330  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:29:33,330  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:29:33,330  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:29:33,330  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-04-12 17:32:48,407  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:32:48,407  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:32:48,408  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:32:48,411  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:32:48,439  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:32:48,440  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:32:48,441  INFO WebLogAspect:59 ---- SPEND TIME: 34
+2017-04-12 17:32:59,039  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:32:59,041  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:32:59,042  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:32:59,042  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:32:59,042  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:32:59,043  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:32:59,043  INFO WebLogAspect:59 ---- SPEND TIME: 4
+2017-04-12 17:33:31,062  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:33:31,062  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:33:31,063  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:33:31,063  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:33:31,063  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:33:31,063  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:33:31,064  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-04-12 17:34:00,049  INFO WebLogAspect:47 ---- URL: http://localhost:8080/Hello
+2017-04-12 17:34:00,049  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:34:00,050  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:34:00,053  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Hello
+2017-04-12 17:34:00,053  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:34:00,053  INFO WebLogAspect:58 ---- RESPONSE: hello
+2017-04-12 17:34:00,054  INFO WebLogAspect:59 ---- SPEND TIME: 5
+2017-04-12 17:35:32,536  INFO WebLogAspect:47 ---- URL: http://localhost:8080/
+2017-04-12 17:35:32,537  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:35:32,537  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:35:32,539  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Index
+2017-04-12 17:35:32,540  INFO WebLogAspect:52 ---- ARGS : [{}]
+2017-04-12 17:35:32,540  INFO WebLogAspect:58 ---- RESPONSE: index
+2017-04-12 17:35:32,541  INFO WebLogAspect:59 ---- SPEND TIME: 5
+2017-04-12 17:35:53,866  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:35:53,867  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:35:53,867  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:35:53,867  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:35:53,867  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:35:53,868  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:35:53,868  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-04-12 17:36:03,121  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:36:03,121  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:36:03,122  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:36:03,122  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:36:03,122  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:36:03,122  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:36:03,122  INFO WebLogAspect:59 ---- SPEND TIME: 1
+2017-04-12 17:36:13,424  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:36:13,425  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:36:13,426  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:36:13,426  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:36:13,427  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:36:13,427  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:36:13,428  INFO WebLogAspect:59 ---- SPEND TIME: 4
+2017-04-12 17:38:42,202  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5816 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-04-12 17:38:42,205 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-04-12 17:38:42,206  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-04-12 17:38:49,121  INFO DemoApplication:57 ---- Started DemoApplication in 7.294 seconds (JVM running for 7.57)
+2017-04-12 17:39:51,374  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:39:51,376  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:39:51,377  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:39:51,379  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:39:51,381  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:39:51,399  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:39:51,403  INFO WebLogAspect:59 ---- SPEND TIME: 29
+2017-04-12 17:40:32,856  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:40:32,859  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:40:32,859  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:40:32,859  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:40:32,860  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:40:32,860  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:40:32,860  INFO WebLogAspect:59 ---- SPEND TIME: 4
+2017-04-12 17:40:40,224  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:40:40,226  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:40:40,227  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:40:40,227  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:40:40,227  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:40:40,228  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:40:40,228  INFO WebLogAspect:59 ---- SPEND TIME: 4
+2017-04-12 17:40:42,346  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:40:42,347  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:40:42,348  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:40:42,348  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:40:42,349  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:40:42,349  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:40:42,349  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-04-12 17:41:03,692  INFO WebLogAspect:47 ---- URL: http://localhost:8080/hello
+2017-04-12 17:41:03,693  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:41:03,693  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:41:03,694  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-12 17:41:03,694  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:41:03,735  INFO WebLogAspect:58 ---- RESPONSE: Hello World!!!
+2017-04-12 17:41:03,736  INFO WebLogAspect:59 ---- SPEND TIME: 44
+2017-04-12 17:41:06,918  INFO WebLogAspect:47 ---- URL: http://localhost:8080/hello
+2017-04-12 17:41:06,918  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:41:06,919  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:41:06,919  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-04-12 17:41:06,922  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:41:06,923  INFO WebLogAspect:58 ---- RESPONSE: Hello World!!!
+2017-04-12 17:41:06,925  INFO WebLogAspect:59 ---- SPEND TIME: 7
+2017-04-12 17:42:15,929  INFO WebLogAspect:47 ---- URL: http://localhost:8080/Hello
+2017-04-12 17:42:15,929  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:42:15,930  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:42:15,930  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Hello
+2017-04-12 17:42:15,930  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:42:15,932  INFO WebLogAspect:58 ---- RESPONSE: hello
+2017-04-12 17:42:15,932  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-04-12 17:42:47,958  INFO WebLogAspect:47 ---- URL: http://localhost:8080/Hello
+2017-04-12 17:42:47,959  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:42:47,960  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:42:47,960  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.Hello
+2017-04-12 17:42:47,960  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:42:47,960  INFO WebLogAspect:58 ---- RESPONSE: hello
+2017-04-12 17:42:47,961  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-04-12 17:42:50,370  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:42:50,371  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:42:50,371  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:42:50,371  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:42:50,371  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:42:50,372  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:42:50,372  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-04-12 17:44:08,222  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:44:08,223  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:44:08,223  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:44:08,223  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:44:08,224  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:44:08,224  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:44:08,224  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-04-12 17:44:09,753  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:44:09,753  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:44:09,753  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:44:09,754  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:44:09,754  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:44:09,754  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:44:09,754  INFO WebLogAspect:59 ---- SPEND TIME: 1
+2017-04-12 17:44:10,537  INFO WebLogAspect:47 ---- URL: http://localhost:8080/login
+2017-04-12 17:44:10,537  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-04-12 17:44:10,538  INFO WebLogAspect:49 ---- IP: 0:0:0:0:0:0:0:1
+2017-04-12 17:44:10,538  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-04-12 17:44:10,538  INFO WebLogAspect:52 ---- ARGS : []
+2017-04-12 17:44:10,538  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-04-12 17:44:10,539  INFO WebLogAspect:59 ---- SPEND TIME: 2

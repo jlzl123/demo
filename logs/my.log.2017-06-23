@@ -1,0 +1,98 @@
+2017-06-23 17:05:07,069  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 7000 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:05:07,308 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:05:07,309  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-23 17:05:27,037  INFO DemoApplication:57 ---- Started DemoApplication in 21.422 seconds (JVM running for 23.485)
+2017-06-23 17:13:12,216  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:12,217  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:13:12,217  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:13:12,222  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:12,223  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:13:12,237  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:13:12,238  INFO WebLogAspect:59 ---- SPEND TIME: 22
+2017-06-23 17:13:13,253  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:13,254  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:13:13,254  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:13:13,254  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:13,255  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:13:13,255  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:13:13,256  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-06-23 17:13:23,562  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:23,565  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:13:23,566  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:13:23,566  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:23,567  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:13:23,568  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:13:23,568  INFO WebLogAspect:59 ---- SPEND TIME: 6
+2017-06-23 17:13:34,994  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:34,995  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:13:34,996  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:13:34,996  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:34,997  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:13:34,997  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:13:34,997  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-06-23 17:13:41,814  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:41,815  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:13:41,816  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:13:41,816  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:41,817  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:13:41,817  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:13:41,819  INFO WebLogAspect:59 ---- SPEND TIME: 5
+2017-06-23 17:13:48,489  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:48,490  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:13:48,490  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:13:48,491  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:48,491  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:13:48,491  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:13:48,492  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-06-23 17:14:19,075  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:14:19,076  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:14:19,076  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:14:19,077  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:14:19,077  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:14:19,077  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:14:19,077  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-06-23 17:30:11,584  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/hello
+2017-06-23 17:30:11,584  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:30:11,585  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:30:11,585  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.index
+2017-06-23 17:30:11,586  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:30:11,595  INFO WebLogAspect:58 ---- RESPONSE: Hello World!!!
+2017-06-23 17:30:11,596  INFO WebLogAspect:59 ---- SPEND TIME: 12
+2017-06-23 17:31:42,193  INFO DemoApplicationTests:48 ---- Starting DemoApplicationTests on AJBC-1779 with PID 6208 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:31:42,196 DEBUG DemoApplicationTests:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:31:42,197  INFO DemoApplicationTests:664 ---- The following profiles are active: dev
+2017-06-23 17:31:50,117  INFO DemoApplicationTests:48 ---- Starting DemoApplicationTests on AJBC-1779 with PID 6208 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:31:50,118 DEBUG DemoApplicationTests:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:31:50,118  INFO DemoApplicationTests:664 ---- The following profiles are active: dev
+2017-06-23 17:33:00,576  INFO DemoApplicationTests:48 ---- Starting DemoApplicationTests on AJBC-1779 with PID 7184 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:33:00,581 DEBUG DemoApplicationTests:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:33:00,582  INFO DemoApplicationTests:664 ---- The following profiles are active: dev
+2017-06-23 17:33:32,106  INFO DemoApplicationTests:48 ---- Starting DemoApplicationTests on AJBC-1779 with PID 5208 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:33:32,109 DEBUG DemoApplicationTests:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:33:32,109  INFO DemoApplicationTests:664 ---- The following profiles are active: dev
+2017-06-23 17:34:33,947  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 980 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:34:33,950 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:34:33,953  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-23 17:34:43,675  INFO DemoApplication:57 ---- Started DemoApplication in 10.114 seconds (JVM running for 10.376)
+2017-06-23 17:36:31,991  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:36:31,992  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:36:31,992  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:36:31,994  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:36:31,994  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:36:32,007  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:36:32,008  INFO WebLogAspect:59 ---- SPEND TIME: 17
+2017-06-23 17:36:50,456  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-23 17:36:50,456  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:36:50,458  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:36:50,458  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:36:50,459  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:36:50,459  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-23 17:36:50,459  INFO WebLogAspect:59 ---- SPEND TIME: 3
+2017-06-23 17:36:57,351  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/getUser
+2017-06-23 17:36:57,352  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-23 17:36:57,352  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-23 17:36:57,352  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.HelloController.getUser
+2017-06-23 17:36:57,353  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-23 17:36:57,369  INFO WebLogAspect:58 ---- RESPONSE: username:张三
+password:admin1111  -96501400
+2017-06-23 17:36:57,369  INFO WebLogAspect:59 ---- SPEND TIME: 18

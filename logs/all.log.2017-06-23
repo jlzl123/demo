@@ -1,0 +1,1133 @@
+2017-06-23 17:05:07,069  INFO DemoApplication:48 - Starting DemoApplication on AJBC-1779 with PID 7000 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:05:07,308 DEBUG DemoApplication:51 - Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:05:07,309  INFO DemoApplication:664 - The following profiles are active: dev
+2017-06-23 17:05:10,622  INFO AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42d8062c: startup date [Fri Jun 23 17:05:10 CST 2017]; root of context hierarchy
+2017-06-23 17:05:12,368  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-06-23 17:05:17,301  INFO TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2017-06-23 17:05:17,334  INFO StandardService:180 - Starting service Tomcat
+2017-06-23 17:05:17,358  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.37
+2017-06-23 17:05:17,844  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2017-06-23 17:05:17,844  INFO ContextLoader:272 - Root WebApplicationContext: initialization completed in 7243 ms
+2017-06-23 17:05:18,820  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-23 17:05:18,820  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-23 17:05:18,821  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-23 17:05:18,821  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-23 17:05:18,836  INFO DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-06-23 17:05:18,837  INFO ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-23 17:05:19,662  INFO DefaultSecurityFilterChain:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ce2b91d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6faa0a89, org.springframework.security.web.header.HeaderWriterFilter@d5b0561, org.springframework.security.web.csrf.CsrfFilter@4c5d85b9, org.springframework.security.web.authentication.logout.LogoutFilter@baa120f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fe0bd27, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@253b14d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e256141, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68c560f4, org.springframework.security.web.session.SessionManagementFilter@3c36bfd, org.springframework.security.web.access.ExceptionTranslationFilter@209b334b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@621246cf]
+2017-06-23 17:05:21,318  INFO RequestMappingHandlerMapping:540 - Mapped "{[/aspect]}" onto public java.lang.String com.example.aspect.TestAspectController.aspect()
+2017-06-23 17:05:21,320  INFO RequestMappingHandlerMapping:540 - Mapped "{[/hello]}" onto public java.lang.String com.example.web.HelloController.index()
+2017-06-23 17:05:21,320  INFO RequestMappingHandlerMapping:540 - Mapped "{[/getUser]}" onto public java.lang.String com.example.web.HelloController.getUser()
+2017-06-23 17:05:21,322  INFO RequestMappingHandlerMapping:540 - Mapped "{[/exception]}" onto public java.lang.String com.example.web.TestController.exception() throws java.lang.Exception
+2017-06-23 17:05:21,323  INFO RequestMappingHandlerMapping:540 - Mapped "{[/]}" onto public java.lang.String com.example.web.TestController.Index(org.springframework.ui.ModelMap)
+2017-06-23 17:05:21,323  INFO RequestMappingHandlerMapping:540 - Mapped "{[/jsonException]}" onto public java.lang.String com.example.web.TestController.jsonException() throws java.lang.Exception
+2017-06-23 17:05:21,324  INFO RequestMappingHandlerMapping:540 - Mapped "{[/log]}" onto public java.lang.String com.example.web.TestController.testLog()
+2017-06-23 17:05:21,326  INFO RequestMappingHandlerMapping:540 - Mapped "{[/getAC]}" onto public java.lang.String com.example.web.TestController.getAC()
+2017-06-23 17:05:21,329  INFO RequestMappingHandlerMapping:540 - Mapped "{[/login]}" onto public java.lang.String com.example.web.TestController.login()
+2017-06-23 17:05:21,330  INFO RequestMappingHandlerMapping:540 - Mapped "{[/Hello]}" onto public java.lang.String com.example.web.TestController.Hello()
+2017-06-23 17:05:21,337  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.example.bean.User com.example.web.UserController.getUser(java.lang.Long)
+2017-06-23 17:05:21,338  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/],methods=[GET]}" onto public java.util.List<com.example.bean.User> com.example.web.UserController.getUserList()
+2017-06-23 17:05:21,339  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.example.web.UserController.postUser(com.example.bean.User)
+2017-06-23 17:05:21,343  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.example.web.UserController.putUser(java.lang.Long,com.example.bean.User)
+2017-06-23 17:05:21,343  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.example.web.UserController.deleteUser(java.lang.Long)
+2017-06-23 17:05:21,345  INFO RequestMappingHandlerMapping:540 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-06-23 17:05:21,353  INFO RequestMappingHandlerMapping:540 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-06-23 17:05:21,354  INFO RequestMappingHandlerMapping:540 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-06-23 17:05:21,355  INFO RequestMappingHandlerMapping:540 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-06-23 17:05:21,360  INFO RequestMappingHandlerMapping:540 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-23 17:05:21,361  INFO RequestMappingHandlerMapping:540 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-23 17:05:22,021  INFO RequestMappingHandlerAdapter:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42d8062c: startup date [Fri Jun 23 17:05:10 CST 2017]; root of context hierarchy
+2017-06-23 17:05:22,568  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-23 17:05:22,569  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-23 17:05:22,604  INFO ExceptionHandlerExceptionResolver:268 - Detected @ExceptionHandler methods in globalExceptionHandler
+2017-06-23 17:05:22,707  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-23 17:05:23,797  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-23 17:05:23,807  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2017-06-23 17:05:23,808  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2017-06-23 17:05:24,095  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2017-06-23 17:05:24,127  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2017-06-23 17:05:24,489  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,496  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,499  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,502  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,505  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,508  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,511  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:24,515  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:05:25,026  INFO CachingOperationNameGenerator:40 - Generating unique operation named: getUserUsingGET_1
+2017-06-23 17:05:25,592  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-23 17:05:25,633  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-23 17:05:26,720  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2017-06-23 17:05:27,033  INFO TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2017-06-23 17:05:27,037  INFO DemoApplication:57 - Started DemoApplication in 21.422 seconds (JVM running for 23.485)
+2017-06-23 17:13:11,843  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-23 17:13:11,843  INFO DispatcherServlet:487 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-23 17:13:11,900  INFO DispatcherServlet:506 - FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+2017-06-23 17:13:12,216  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:12,217  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:13:12,217  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:13:12,222  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:12,223  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:13:12,237  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:13:12,238  INFO WebLogAspect:59 - SPEND TIME: 22
+2017-06-23 17:13:12,279  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-06-23 17:13:12,364  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2017-06-23 17:13:12,365  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-06-23 17:13:12,366  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-06-23 17:13:12,367  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-06-23 17:13:12,382  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-06-23 17:13:12,383  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-06-23 17:13:13,253  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:13,254  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:13:13,254  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:13:13,254  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:13,255  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:13:13,255  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:13:13,256  INFO WebLogAspect:59 - SPEND TIME: 3
+2017-06-23 17:13:23,562  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:23,565  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:13:23,566  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:13:23,566  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:23,567  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:13:23,568  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:13:23,568  INFO WebLogAspect:59 - SPEND TIME: 6
+2017-06-23 17:13:34,994  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:34,995  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:13:34,996  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:13:34,996  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:34,997  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:13:34,997  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:13:34,997  INFO WebLogAspect:59 - SPEND TIME: 3
+2017-06-23 17:13:41,814  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:41,815  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:13:41,816  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:13:41,816  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:41,817  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:13:41,817  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:13:41,819  INFO WebLogAspect:59 - SPEND TIME: 5
+2017-06-23 17:13:48,489  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:13:48,490  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:13:48,490  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:13:48,491  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:13:48,491  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:13:48,491  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:13:48,492  INFO WebLogAspect:59 - SPEND TIME: 3
+2017-06-23 17:14:14,762 ERROR TemplateEngine:1085 - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "error": Exception evaluating SpringEL expression: "exception.message" (error:10)
+2017-06-23 17:14:14,792 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet dispatcherServlet threw exception
+org.springframework.expression.spel.SpelEvaluationException: EL1007E:(pos 0): Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:220)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:267)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:139)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardTextChildModifierAttrProcessor.getText(AbstractStandardTextChildModifierAttrProcessor.java:68)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:442)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:301)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:178)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-06-23 17:14:14,817 ERROR [localhost]:182 - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (error:10)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:442)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:301)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:178)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (error:10)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:161)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardTextChildModifierAttrProcessor.getText(AbstractStandardTextChildModifierAttrProcessor.java:68)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	... 24 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:(pos 0): Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:220)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:267)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:139)
+	... 56 more
+2017-06-23 17:14:19,075  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:14:19,076  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:14:19,076  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:14:19,077  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:14:19,077  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:14:19,077  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:14:19,077  INFO WebLogAspect:59 - SPEND TIME: 2
+2017-06-23 17:29:45,852 ERROR TemplateEngine:1085 - [THYMELEAF][http-nio-8080-exec-6] Exception processing template "error": Exception evaluating SpringEL expression: "exception.message" (error:10)
+2017-06-23 17:29:45,853 ERROR [dispatcherServlet]:182 - Servlet.service() for servlet dispatcherServlet threw exception
+org.springframework.expression.spel.SpelEvaluationException: EL1007E:(pos 0): Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:220)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:267)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:139)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardTextChildModifierAttrProcessor.getText(AbstractStandardTextChildModifierAttrProcessor.java:68)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:442)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:301)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:178)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-06-23 17:29:45,854 ERROR [localhost]:182 - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (error:10)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:720)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:468)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:391)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:442)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:301)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:178)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1100)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:687)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "exception.message" (error:10)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:161)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariable(VariableExpression.java:154)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:59)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:103)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:133)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:120)
+	at org.thymeleaf.standard.processor.attr.AbstractStandardTextChildModifierAttrProcessor.getText(AbstractStandardTextChildModifierAttrProcessor.java:68)
+	at org.thymeleaf.processor.attr.AbstractTextChildModifierAttrProcessor.getModifiedChildren(AbstractTextChildModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractChildrenModifierAttrProcessor.processAttribute(AbstractChildrenModifierAttrProcessor.java:59)
+	at org.thymeleaf.processor.attr.AbstractAttrProcessor.doProcess(AbstractAttrProcessor.java:87)
+	at org.thymeleaf.processor.AbstractProcessor.process(AbstractProcessor.java:212)
+	at org.thymeleaf.dom.Node.applyNextProcessor(Node.java:1017)
+	at org.thymeleaf.dom.Node.processNode(Node.java:972)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.NestableNode.computeNextChild(NestableNode.java:695)
+	at org.thymeleaf.dom.NestableNode.doAdditionalProcess(NestableNode.java:668)
+	at org.thymeleaf.dom.Node.processNode(Node.java:990)
+	at org.thymeleaf.dom.Document.process(Document.java:93)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1155)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1246)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1029)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:895)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	... 24 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E:(pos 0): Property or field 'message' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:220)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:46)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:374)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:267)
+	at org.thymeleaf.spring4.expression.SpelVariableExpressionEvaluator.evaluate(SpelVariableExpressionEvaluator.java:139)
+	... 56 more
+2017-06-23 17:30:11,584  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/hello
+2017-06-23 17:30:11,584  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:30:11,585  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:30:11,585  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.HelloController.index
+2017-06-23 17:30:11,586  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:30:11,595  INFO WebLogAspect:58 - RESPONSE: Hello World!!!
+2017-06-23 17:30:11,596  INFO WebLogAspect:59 - SPEND TIME: 12
+2017-06-23 17:31:42,193  INFO DemoApplicationTests:48 - Starting DemoApplicationTests on AJBC-1779 with PID 6208 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:31:42,196 DEBUG DemoApplicationTests:51 - Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:31:42,197  INFO DemoApplicationTests:664 - The following profiles are active: dev
+2017-06-23 17:31:42,643  INFO AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e50a6f6: startup date [Fri Jun 23 17:31:42 CST 2017]; root of context hierarchy
+2017-06-23 17:31:42,675  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-06-23 17:31:49,527  WARN AnnotationConfigApplicationContext:546 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+2017-06-23 17:31:49,532 ERROR SpringApplication:821 - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:31:49,668  INFO ClasspathLoggingApplicationListener:57 - Application failed to start with classpath: [file:/D:/Users/004/springCloud/demo/target/test-classes/, file:/D:/Users/004/springCloud/demo/target/classes/, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter/1.3.8.RELEASE/spring-boot-starter-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot/1.3.8.RELEASE/spring-boot-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-context/4.2.8.RELEASE/spring-context-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.8.RELEASE/spring-boot-autoconfigure-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-core/4.2.8.RELEASE/spring-core-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-test/1.3.8.RELEASE/spring-boot-starter-test-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/junit/junit/4.12/junit-4.12.jar, file:/E:/dev_software/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/E:/dev_software/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/E:/dev_software/repository/org/springframework/spring-test/4.2.8.RELEASE/spring-test-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-web/1.3.8.RELEASE/spring-boot-starter-web-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.8.RELEASE/spring-boot-starter-tomcat-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.37/tomcat-embed-core-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.37/tomcat-embed-el-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.37/tomcat-embed-logging-juli-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.37/tomcat-embed-websocket-8.0.37.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-validation/1.3.8.RELEASE/spring-boot-starter-validation-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar, file:/E:/dev_software/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/E:/dev_software/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar, file:/E:/dev_software/repository/org/springframework/spring-web/4.2.8.RELEASE/spring-web-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-beans/4.2.8.RELEASE/spring-beans-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-expression/4.2.8.RELEASE/spring-expression-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/spring-boot-starter-thymeleaf-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/ognl/ognl/3.0.8/ognl-3.0.8.jar, file:/E:/dev_software/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/E:/dev_software/repository/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar, file:/E:/dev_software/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.3.3/thymeleaf-layout-dialect-1.3.3.jar, file:/E:/dev_software/repository/org/codehaus/groovy/groovy/2.4.7/groovy-2.4.7.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar, file:/E:/dev_software/repository/io/swagger/swagger-annotations/1.5.10/swagger-annotations-1.5.10.jar, file:/E:/dev_software/repository/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar, file:/E:/dev_software/repository/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar, file:/E:/dev_software/repository/com/google/guava/guava/18.0/guava-18.0.jar, file:/E:/dev_software/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/mapstruct/mapstruct/1.0.0.Final/mapstruct-1.0.0.Final.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-ui/2.6.1/springfox-swagger-ui-2.6.1.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-aop/1.5.2.RELEASE/spring-boot-starter-aop-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-aop/4.2.8.RELEASE/spring-aop-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/E:/dev_software/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-log4j/1.3.8.RELEASE/spring-boot-starter-log4j-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar, file:/E:/dev_software/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-security/1.3.8.RELEASE/spring-boot-starter-security-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-config/4.0.4.RELEASE/spring-security-config-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-web/4.0.4.RELEASE/spring-security-web-4.0.4.RELEASE.jar, file:/D:/eclipse/configuration/org.eclipse.osgi/362/0/.cp/, file:/D:/eclipse/configuration/org.eclipse.osgi/361/0/.cp/]
+2017-06-23 17:31:49,668 ERROR TestContextManager:231 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2096442d] to prepare test instance [com.example.DemoApplicationTests@23ceabc1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:31:50,117  INFO DemoApplicationTests:48 - Starting DemoApplicationTests on AJBC-1779 with PID 6208 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:31:50,118 DEBUG DemoApplicationTests:51 - Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:31:50,118  INFO DemoApplicationTests:664 - The following profiles are active: dev
+2017-06-23 17:31:50,121  INFO AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5eed2d86: startup date [Fri Jun 23 17:31:50 CST 2017]; root of context hierarchy
+2017-06-23 17:31:51,684  WARN AnnotationConfigApplicationContext:546 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+2017-06-23 17:31:51,689 ERROR SpringApplication:821 - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:31:51,699  INFO ClasspathLoggingApplicationListener:57 - Application failed to start with classpath: [file:/D:/Users/004/springCloud/demo/target/test-classes/, file:/D:/Users/004/springCloud/demo/target/classes/, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter/1.3.8.RELEASE/spring-boot-starter-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot/1.3.8.RELEASE/spring-boot-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-context/4.2.8.RELEASE/spring-context-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.8.RELEASE/spring-boot-autoconfigure-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-core/4.2.8.RELEASE/spring-core-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-test/1.3.8.RELEASE/spring-boot-starter-test-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/junit/junit/4.12/junit-4.12.jar, file:/E:/dev_software/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/E:/dev_software/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/E:/dev_software/repository/org/springframework/spring-test/4.2.8.RELEASE/spring-test-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-web/1.3.8.RELEASE/spring-boot-starter-web-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.8.RELEASE/spring-boot-starter-tomcat-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.37/tomcat-embed-core-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.37/tomcat-embed-el-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.37/tomcat-embed-logging-juli-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.37/tomcat-embed-websocket-8.0.37.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-validation/1.3.8.RELEASE/spring-boot-starter-validation-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar, file:/E:/dev_software/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/E:/dev_software/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar, file:/E:/dev_software/repository/org/springframework/spring-web/4.2.8.RELEASE/spring-web-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-beans/4.2.8.RELEASE/spring-beans-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-expression/4.2.8.RELEASE/spring-expression-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/spring-boot-starter-thymeleaf-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/ognl/ognl/3.0.8/ognl-3.0.8.jar, file:/E:/dev_software/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/E:/dev_software/repository/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar, file:/E:/dev_software/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.3.3/thymeleaf-layout-dialect-1.3.3.jar, file:/E:/dev_software/repository/org/codehaus/groovy/groovy/2.4.7/groovy-2.4.7.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar, file:/E:/dev_software/repository/io/swagger/swagger-annotations/1.5.10/swagger-annotations-1.5.10.jar, file:/E:/dev_software/repository/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar, file:/E:/dev_software/repository/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar, file:/E:/dev_software/repository/com/google/guava/guava/18.0/guava-18.0.jar, file:/E:/dev_software/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/mapstruct/mapstruct/1.0.0.Final/mapstruct-1.0.0.Final.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-ui/2.6.1/springfox-swagger-ui-2.6.1.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-aop/1.5.2.RELEASE/spring-boot-starter-aop-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-aop/4.2.8.RELEASE/spring-aop-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/E:/dev_software/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-log4j/1.3.8.RELEASE/spring-boot-starter-log4j-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar, file:/E:/dev_software/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-security/1.3.8.RELEASE/spring-boot-starter-security-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-config/4.0.4.RELEASE/spring-security-config-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-web/4.0.4.RELEASE/spring-security-web-4.0.4.RELEASE.jar, file:/D:/eclipse/configuration/org.eclipse.osgi/362/0/.cp/, file:/D:/eclipse/configuration/org.eclipse.osgi/361/0/.cp/]
+2017-06-23 17:31:51,723 ERROR TestContextManager:231 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2096442d] to prepare test instance [com.example.DemoApplicationTests@70c69586]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:33:00,576  INFO DemoApplicationTests:48 - Starting DemoApplicationTests on AJBC-1779 with PID 7184 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:33:00,581 DEBUG DemoApplicationTests:51 - Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:33:00,582  INFO DemoApplicationTests:664 - The following profiles are active: dev
+2017-06-23 17:33:01,093  INFO AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e50a6f6: startup date [Fri Jun 23 17:33:01 CST 2017]; root of context hierarchy
+2017-06-23 17:33:01,096  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-06-23 17:33:04,906  WARN AnnotationConfigApplicationContext:546 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+2017-06-23 17:33:04,914 ERROR SpringApplication:821 - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:33:04,960  INFO ClasspathLoggingApplicationListener:57 - Application failed to start with classpath: [file:/D:/Users/004/springCloud/demo/target/test-classes/, file:/D:/Users/004/springCloud/demo/target/classes/, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter/1.3.8.RELEASE/spring-boot-starter-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot/1.3.8.RELEASE/spring-boot-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-context/4.2.8.RELEASE/spring-context-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.8.RELEASE/spring-boot-autoconfigure-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-core/4.2.8.RELEASE/spring-core-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-test/1.3.8.RELEASE/spring-boot-starter-test-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/junit/junit/4.12/junit-4.12.jar, file:/E:/dev_software/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/E:/dev_software/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/E:/dev_software/repository/org/springframework/spring-test/4.2.8.RELEASE/spring-test-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-web/1.3.8.RELEASE/spring-boot-starter-web-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.8.RELEASE/spring-boot-starter-tomcat-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.37/tomcat-embed-core-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.37/tomcat-embed-el-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.37/tomcat-embed-logging-juli-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.37/tomcat-embed-websocket-8.0.37.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-validation/1.3.8.RELEASE/spring-boot-starter-validation-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar, file:/E:/dev_software/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/E:/dev_software/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar, file:/E:/dev_software/repository/org/springframework/spring-web/4.2.8.RELEASE/spring-web-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-beans/4.2.8.RELEASE/spring-beans-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-expression/4.2.8.RELEASE/spring-expression-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/spring-boot-starter-thymeleaf-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/ognl/ognl/3.0.8/ognl-3.0.8.jar, file:/E:/dev_software/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/E:/dev_software/repository/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar, file:/E:/dev_software/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.3.3/thymeleaf-layout-dialect-1.3.3.jar, file:/E:/dev_software/repository/org/codehaus/groovy/groovy/2.4.7/groovy-2.4.7.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar, file:/E:/dev_software/repository/io/swagger/swagger-annotations/1.5.10/swagger-annotations-1.5.10.jar, file:/E:/dev_software/repository/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar, file:/E:/dev_software/repository/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar, file:/E:/dev_software/repository/com/google/guava/guava/18.0/guava-18.0.jar, file:/E:/dev_software/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/mapstruct/mapstruct/1.0.0.Final/mapstruct-1.0.0.Final.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-ui/2.6.1/springfox-swagger-ui-2.6.1.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-aop/1.5.2.RELEASE/spring-boot-starter-aop-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-aop/4.2.8.RELEASE/spring-aop-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/E:/dev_software/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-log4j/1.3.8.RELEASE/spring-boot-starter-log4j-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar, file:/E:/dev_software/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-security/1.3.8.RELEASE/spring-boot-starter-security-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-config/4.0.4.RELEASE/spring-security-config-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-web/4.0.4.RELEASE/spring-security-web-4.0.4.RELEASE.jar, file:/D:/eclipse/configuration/org.eclipse.osgi/362/0/.cp/, file:/D:/eclipse/configuration/org.eclipse.osgi/361/0/.cp/]
+2017-06-23 17:33:04,961 ERROR TestContextManager:231 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2096442d] to prepare test instance [com.example.DemoApplicationTests@23ceabc1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:33:32,106  INFO DemoApplicationTests:48 - Starting DemoApplicationTests on AJBC-1779 with PID 5208 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:33:32,109 DEBUG DemoApplicationTests:51 - Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:33:32,109  INFO DemoApplicationTests:664 - The following profiles are active: dev
+2017-06-23 17:33:32,399  INFO AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e50a6f6: startup date [Fri Jun 23 17:33:32 CST 2017]; root of context hierarchy
+2017-06-23 17:33:32,597  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-06-23 17:33:35,811  WARN AnnotationConfigApplicationContext:546 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+2017-06-23 17:33:35,819 ERROR SpringApplication:821 - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:33:35,846  INFO ClasspathLoggingApplicationListener:57 - Application failed to start with classpath: [file:/D:/Users/004/springCloud/demo/target/test-classes/, file:/D:/Users/004/springCloud/demo/target/classes/, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter/1.3.8.RELEASE/spring-boot-starter-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot/1.3.8.RELEASE/spring-boot-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-context/4.2.8.RELEASE/spring-context-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.8.RELEASE/spring-boot-autoconfigure-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-core/4.2.8.RELEASE/spring-core-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-test/1.3.8.RELEASE/spring-boot-starter-test-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/junit/junit/4.12/junit-4.12.jar, file:/E:/dev_software/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/E:/dev_software/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/E:/dev_software/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/E:/dev_software/repository/org/springframework/spring-test/4.2.8.RELEASE/spring-test-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-web/1.3.8.RELEASE/spring-boot-starter-web-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.8.RELEASE/spring-boot-starter-tomcat-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.37/tomcat-embed-core-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.37/tomcat-embed-el-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.37/tomcat-embed-logging-juli-8.0.37.jar, file:/E:/dev_software/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.37/tomcat-embed-websocket-8.0.37.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-validation/1.3.8.RELEASE/spring-boot-starter-validation-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar, file:/E:/dev_software/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar, file:/E:/dev_software/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.7/jackson-annotations-2.6.7.jar, file:/E:/dev_software/repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar, file:/E:/dev_software/repository/org/springframework/spring-web/4.2.8.RELEASE/spring-web-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-beans/4.2.8.RELEASE/spring-beans-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-webmvc/4.2.8.RELEASE/spring-webmvc-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-expression/4.2.8.RELEASE/spring-expression-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/spring-boot-starter-thymeleaf-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar, file:/E:/dev_software/repository/ognl/ognl/3.0.8/ognl-3.0.8.jar, file:/E:/dev_software/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar, file:/E:/dev_software/repository/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar, file:/E:/dev_software/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.3.3/thymeleaf-layout-dialect-1.3.3.jar, file:/E:/dev_software/repository/org/codehaus/groovy/groovy/2.4.7/groovy-2.4.7.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger2/2.6.1/springfox-swagger2-2.6.1.jar, file:/E:/dev_software/repository/io/swagger/swagger-annotations/1.5.10/swagger-annotations-1.5.10.jar, file:/E:/dev_software/repository/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar, file:/E:/dev_software/repository/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-schema/2.6.1/springfox-schema-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-common/2.6.1/springfox-swagger-common-2.6.1.jar, file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar, file:/E:/dev_software/repository/com/google/guava/guava/18.0/guava-18.0.jar, file:/E:/dev_software/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar, file:/E:/dev_software/repository/org/mapstruct/mapstruct/1.0.0.Final/mapstruct-1.0.0.Final.jar, file:/E:/dev_software/repository/io/springfox/springfox-swagger-ui/2.6.1/springfox-swagger-ui-2.6.1.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-aop/1.5.2.RELEASE/spring-boot-starter-aop-1.5.2.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/spring-aop/4.2.8.RELEASE/spring-aop-4.2.8.RELEASE.jar, file:/E:/dev_software/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, file:/E:/dev_software/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-log4j/1.3.8.RELEASE/spring-boot-starter-log4j-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar, file:/E:/dev_software/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar, file:/E:/dev_software/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar, file:/E:/dev_software/repository/org/springframework/boot/spring-boot-starter-security/1.3.8.RELEASE/spring-boot-starter-security-1.3.8.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-config/4.0.4.RELEASE/spring-security-config-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar, file:/E:/dev_software/repository/org/springframework/security/spring-security-web/4.0.4.RELEASE/spring-security-web-4.0.4.RELEASE.jar, file:/D:/eclipse/configuration/org.eclipse.osgi/362/0/.cp/, file:/D:/eclipse/configuration/org.eclipse.osgi/361/0/.cp/]
+2017-06-23 17:33:35,846 ERROR TestContextManager:231 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2096442d] to prepare test instance [com.example.DemoApplicationTests@23ceabc1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor argument with index 1 of type [java.util.List]: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:778)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:760)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 25 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/E:/dev_software/repository/io/springfox/springfox-spring-web/2.6.1/springfox-spring-web-2.6.1.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor argument with index 0 of type [java.util.List]: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 43 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping] found for dependency [collection of org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping]: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1078)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:814)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 57 more
+2017-06-23 17:34:33,947  INFO DemoApplication:48 - Starting DemoApplication on AJBC-1779 with PID 980 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-23 17:34:33,950 DEBUG DemoApplication:51 - Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-23 17:34:33,953  INFO DemoApplication:664 - The following profiles are active: dev
+2017-06-23 17:34:34,240  INFO AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42d8062c: startup date [Fri Jun 23 17:34:34 CST 2017]; root of context hierarchy
+2017-06-23 17:34:34,752  INFO Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2017-06-23 17:34:37,916  INFO TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2017-06-23 17:34:37,949  INFO StandardService:180 - Starting service Tomcat
+2017-06-23 17:34:37,951  INFO StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.37
+2017-06-23 17:34:38,162  INFO [/]:180 - Initializing Spring embedded WebApplicationContext
+2017-06-23 17:34:38,162  INFO ContextLoader:272 - Root WebApplicationContext: initialization completed in 3926 ms
+2017-06-23 17:34:39,073  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-23 17:34:39,074  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-23 17:34:39,074  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-23 17:34:39,074  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-23 17:34:39,076  INFO DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-06-23 17:34:39,076  INFO ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-23 17:34:39,696  INFO DefaultSecurityFilterChain:28 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bc2bf6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@6369040a, org.springframework.security.web.header.HeaderWriterFilter@50000c6f, org.springframework.security.web.csrf.CsrfFilter@12c8cebe, org.springframework.security.web.authentication.logout.LogoutFilter@51191a7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43f03b25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40493a49, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39f01f15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b5bee5c, org.springframework.security.web.session.SessionManagementFilter@10cdd41a, org.springframework.security.web.access.ExceptionTranslationFilter@1ef68ebc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@775465ba]
+2017-06-23 17:34:40,833  INFO RequestMappingHandlerMapping:540 - Mapped "{[/aspect]}" onto public java.lang.String com.example.aspect.TestAspectController.aspect()
+2017-06-23 17:34:40,836  INFO RequestMappingHandlerMapping:540 - Mapped "{[/hello]}" onto public java.lang.String com.example.web.HelloController.index()
+2017-06-23 17:34:40,836  INFO RequestMappingHandlerMapping:540 - Mapped "{[/getUser]}" onto public java.lang.String com.example.web.HelloController.getUser()
+2017-06-23 17:34:40,842  INFO RequestMappingHandlerMapping:540 - Mapped "{[/exception]}" onto public java.lang.String com.example.web.TestController.exception() throws java.lang.Exception
+2017-06-23 17:34:40,843  INFO RequestMappingHandlerMapping:540 - Mapped "{[/]}" onto public java.lang.String com.example.web.TestController.Index(org.springframework.ui.ModelMap)
+2017-06-23 17:34:40,844  INFO RequestMappingHandlerMapping:540 - Mapped "{[/jsonException]}" onto public java.lang.String com.example.web.TestController.jsonException() throws java.lang.Exception
+2017-06-23 17:34:40,845  INFO RequestMappingHandlerMapping:540 - Mapped "{[/log]}" onto public java.lang.String com.example.web.TestController.testLog()
+2017-06-23 17:34:40,846  INFO RequestMappingHandlerMapping:540 - Mapped "{[/getAC]}" onto public java.lang.String com.example.web.TestController.getAC()
+2017-06-23 17:34:40,847  INFO RequestMappingHandlerMapping:540 - Mapped "{[/login]}" onto public java.lang.String com.example.web.TestController.login()
+2017-06-23 17:34:40,848  INFO RequestMappingHandlerMapping:540 - Mapped "{[/Hello]}" onto public java.lang.String com.example.web.TestController.Hello()
+2017-06-23 17:34:40,856  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/{id}],methods=[GET]}" onto public com.example.bean.User com.example.web.UserController.getUser(java.lang.Long)
+2017-06-23 17:34:40,857  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/],methods=[GET]}" onto public java.util.List<com.example.bean.User> com.example.web.UserController.getUserList()
+2017-06-23 17:34:40,858  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/],methods=[POST]}" onto public java.lang.String com.example.web.UserController.postUser(com.example.bean.User)
+2017-06-23 17:34:40,860  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/{id}],methods=[PUT]}" onto public java.lang.String com.example.web.UserController.putUser(java.lang.Long,com.example.bean.User)
+2017-06-23 17:34:40,864  INFO RequestMappingHandlerMapping:540 - Mapped "{[/users/{id}],methods=[DELETE]}" onto public java.lang.String com.example.web.UserController.deleteUser(java.lang.Long)
+2017-06-23 17:34:40,865  INFO RequestMappingHandlerMapping:540 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2017-06-23 17:34:40,872  INFO RequestMappingHandlerMapping:540 - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-06-23 17:34:40,882  INFO RequestMappingHandlerMapping:540 - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-06-23 17:34:40,884  INFO RequestMappingHandlerMapping:540 - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-06-23 17:34:40,890  INFO RequestMappingHandlerMapping:540 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-23 17:34:40,891  INFO RequestMappingHandlerMapping:540 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-23 17:34:41,396  INFO RequestMappingHandlerAdapter:539 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42d8062c: startup date [Fri Jun 23 17:34:34 CST 2017]; root of context hierarchy
+2017-06-23 17:34:41,800  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-23 17:34:41,800  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-23 17:34:41,836  INFO ExceptionHandlerExceptionResolver:268 - Detected @ExceptionHandler methods in globalExceptionHandler
+2017-06-23 17:34:41,882  INFO SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-23 17:34:42,841  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-06-23 17:34:42,851  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2017-06-23 17:34:42,851  INFO DocumentationPluginsBootstrapper:120 - Context refreshed
+2017-06-23 17:34:42,917  INFO DocumentationPluginsBootstrapper:123 - Found 1 custom documentation plugin(s)
+2017-06-23 17:34:42,940  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2017-06-23 17:34:43,161  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,172  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,178  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,187  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,190  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,195  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,201  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,219  WARN ParameterDataTypeReader:87 - Trying to infer dataType org.springframework.ui.ModelMap
+2017-06-23 17:34:43,407  INFO CachingOperationNameGenerator:40 - Generating unique operation named: getUserUsingGET_1
+2017-06-23 17:34:43,507  INFO Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-23 17:34:43,534  INFO Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-23 17:34:43,621  INFO NioSelectorPool:180 - Using a shared selector for servlet write/read
+2017-06-23 17:34:43,668  INFO TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2017-06-23 17:34:43,675  INFO DemoApplication:57 - Started DemoApplication in 10.114 seconds (JVM running for 10.376)
+2017-06-23 17:36:31,771  INFO [/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-23 17:36:31,772  INFO DispatcherServlet:487 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-23 17:36:31,810  INFO DispatcherServlet:506 - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2017-06-23 17:36:31,991  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:36:31,992  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:36:31,992  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:36:31,994  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:36:31,994  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:36:32,007  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:36:32,008  INFO WebLogAspect:59 - SPEND TIME: 17
+2017-06-23 17:36:32,043  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-06-23 17:36:32,107  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2017-06-23 17:36:32,108  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-06-23 17:36:32,109  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-06-23 17:36:32,109  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-06-23 17:36:32,120  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-06-23 17:36:32,121  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-06-23 17:36:50,456  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/login
+2017-06-23 17:36:50,456  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:36:50,458  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:36:50,458  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.TestController.login
+2017-06-23 17:36:50,459  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:36:50,459  INFO WebLogAspect:58 - RESPONSE: login
+2017-06-23 17:36:50,459  INFO WebLogAspect:59 - SPEND TIME: 3
+2017-06-23 17:36:57,351  INFO WebLogAspect:47 - URL: http://127.0.0.1:8080/getUser
+2017-06-23 17:36:57,352  INFO WebLogAspect:48 - HTTP_METHOD: GET
+2017-06-23 17:36:57,352  INFO WebLogAspect:49 - IP: 127.0.0.1
+2017-06-23 17:36:57,352  INFO WebLogAspect:50 - CLASS_METHOD: com.example.web.HelloController.getUser
+2017-06-23 17:36:57,353  INFO WebLogAspect:52 - ARGS : []
+2017-06-23 17:36:57,369  INFO WebLogAspect:58 - RESPONSE: username:张三
+password:admin1111  -96501400
+2017-06-23 17:36:57,369  INFO WebLogAspect:59 - SPEND TIME: 18
