@@ -39,11 +39,11 @@ public class UserControllerTest {
 		RequestBuilder request=null;
 		
 		// 1、get查一下user列表，应该为空 
-		request=get("/users/");
+		request=get("/users/list");
 		mvc.perform(request).andExpect(status().isOk()).andExpect(content().string(equalTo("[]")));
 		
 		// 2、post提交一个user 
-		request=post("/users/")
+		request=post("/users/add")
 				.param("id", "1")
 				.param("name", "测试大师")
 				.param("age", "20");

@@ -13,13 +13,14 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-@Aspect
-@Order(5)
-@Component
+@Aspect//声明这是一个切面bean
+@Order(5)//配置优先级
+@Component//声明这是一个组件
 public class UserServiceAspect {
 	
 	private Logger log=Logger.getLogger(getClass());
 //	@Pointcut("execution(public * com.example.web..*.*(..))")
+	//配置切入点,下面的方法名就是切入点的名称
 	@Pointcut("execution(public * com.example.aspect.pointcut..*(..))")
 	public void UserAspect(){}
 	

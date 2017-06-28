@@ -20,4 +20,10 @@ public class TestAspectController {
 		userService.getUser(1L);
 		return "abc";
 	}
+	
+	@RequestMapping("/getAspect")
+	public String getAspect(){
+		String str=null;
+		return str;
+	}
 }

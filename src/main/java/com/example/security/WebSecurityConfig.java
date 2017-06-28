@@ -14,9 +14,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		// TODO Auto-generated method stub
+		http.csrf().disable();
 		http.authorizeRequests()//定义哪些URL需要被保护、哪些不需要被保护
 		          //    /和/home不需要任何认证就可以访问，其他的路径都必须通过身份验证。
-		          .antMatchers("/","/home").permitAll()
+		          .antMatchers("/","/home","/users/*").permitAll()
 		          .anyRequest().authenticated()
 		          .and()
 		     .formLogin()//通过formLogin()定义当需要用户登录时候，转到的登录页面。
