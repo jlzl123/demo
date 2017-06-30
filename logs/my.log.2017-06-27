@@ -1,0 +1,408 @@
+2017-06-27 10:00:10,507  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 1428 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:00:10,535 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:00:10,536  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:01:13,731  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5868 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:01:13,734 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:01:13,734  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:03:00,202  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 2044 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:03:00,205 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:03:00,206  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:04:30,990  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5612 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:04:30,995 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:04:30,996  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:05:25,724  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 2652 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:05:25,726 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:05:25,727  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:06:42,075  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1756 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:06:42,078 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:06:42,078  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:06:49,089  INFO DemoApplication:57 ---- Started DemoApplication in 7.34 seconds (JVM running for 7.63)
+2017-06-27 10:07:18,572  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 4456 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:07:18,574 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:07:18,575  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:08:44,662  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 4396 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:08:44,664 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:08:44,665  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:11:05,418  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 5140 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:11:05,421 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:11:05,421  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:13:40,644  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5952 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:13:40,646 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:13:40,647  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:13:48,003  INFO DemoApplication:57 ---- Started DemoApplication in 7.688 seconds (JVM running for 8.008)
+2017-06-27 10:13:50,576  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 3668 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:13:50,578 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:13:50,579  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:16:48,781  INFO AddUserTest:48 ---- Starting AddUserTest on AJBC-1779 with PID 4200 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:16:48,784 DEBUG AddUserTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:16:48,784  INFO AddUserTest:664 ---- The following profiles are active: dev
+2017-06-27 10:16:49,110  INFO AddUserTest:57 ---- Started AddUserTest in 0.609 seconds (JVM running for 1.103)
+2017-06-27 10:17:22,368  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 5704 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:17:22,370 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:17:22,371  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:24:00,395  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 5316 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:24:00,397 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:24:00,398  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:24:15,156  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 4252 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:24:15,160 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:24:15,160  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:25:18,873  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 4332 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:25:18,876 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:25:18,877  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:29:10,787  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 2748 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:29:10,789 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:29:10,790  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 10:36:20,166  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 6140 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:36:20,169 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:36:20,170  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:36:27,725  INFO DemoApplication:57 ---- Started DemoApplication in 7.875 seconds (JVM running for 8.148)
+2017-06-27 10:37:09,981  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:37:09,982  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:37:09,982  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:37:09,986  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:37:09,988  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:37:10,004  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:37:10,007  INFO WebLogAspect:59 ---- SPEND TIME: 26
+2017-06-27 10:37:10,955  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:37:10,956  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:37:10,956  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:37:10,956  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:37:10,957  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:37:10,957  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:37:10,957  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-06-27 10:37:26,581  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:37:26,581  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:37:26,581  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:37:26,582  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:37:26,582  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:38:23,972  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:38:23,972  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:38:23,973  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:38:23,973  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:38:23,973  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:39:36,939  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4824 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:39:36,942 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:39:36,942  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:39:44,694  INFO DemoApplication:57 ---- Started DemoApplication in 8.072 seconds (JVM running for 8.339)
+2017-06-27 10:39:45,062  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:39:45,066  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:39:45,067  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:39:45,069  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:39:45,069  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:39:45,079  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:39:45,080  INFO WebLogAspect:59 ---- SPEND TIME: 18
+2017-06-27 10:39:47,760  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:39:47,762  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:39:47,762  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:39:47,763  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:39:47,764  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:40:28,677  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:40:28,677  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:40:28,678  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:40:28,678  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:40:28,678  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:41:26,190  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3208 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:41:26,192 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:41:26,192  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:41:33,599  INFO DemoApplication:57 ---- Started DemoApplication in 7.744 seconds (JVM running for 8.042)
+2017-06-27 10:41:40,454  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:41:40,455  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:41:40,456  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:41:40,461  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:41:40,462  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:41:40,472  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:41:40,473  INFO WebLogAspect:59 ---- SPEND TIME: 19
+2017-06-27 10:41:43,474  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:41:43,478  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:41:43,478  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:41:43,479  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:41:43,479  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:43:29,262  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 6120 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:43:29,264 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:43:29,265  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:43:36,250  INFO DemoApplication:57 ---- Started DemoApplication in 7.325 seconds (JVM running for 7.63)
+2017-06-27 10:43:41,213  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:43:41,214  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:43:41,214  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:43:41,217  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:43:41,218  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:43:41,229  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:43:41,230  INFO WebLogAspect:59 ---- SPEND TIME: 17
+2017-06-27 10:43:42,710  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:43:42,711  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:43:42,711  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:43:42,712  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:43:42,712  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:49:44,065  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4708 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:49:44,067 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:49:44,068  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:49:51,676  INFO DemoApplication:57 ---- Started DemoApplication in 7.978 seconds (JVM running for 8.225)
+2017-06-27 10:50:37,655  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:50:37,656  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:50:37,657  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:50:37,659  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:50:37,661  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:50:37,676  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:50:37,685  INFO WebLogAspect:59 ---- SPEND TIME: 30
+2017-06-27 10:50:39,388  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:50:39,389  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:50:39,389  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:50:39,390  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:50:39,390  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 10:51:48,067  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3372 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:51:48,069 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:51:48,070  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:51:55,788  INFO DemoApplication:57 ---- Started DemoApplication in 8.099 seconds (JVM running for 8.345)
+2017-06-27 10:52:04,986  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:52:04,987  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:52:04,987  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:52:04,990  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:52:04,992  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:52:05,021  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:52:05,022  INFO WebLogAspect:59 ---- SPEND TIME: 36
+2017-06-27 10:52:07,101  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:52:07,102  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:52:07,102  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:52:07,103  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:52:07,103  INFO WebLogAspect:52 ---- ARGS : [abc]
+2017-06-27 10:57:07,968  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5740 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 10:57:07,971 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 10:57:07,972  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 10:57:15,113  INFO DemoApplication:57 ---- Started DemoApplication in 7.476 seconds (JVM running for 7.727)
+2017-06-27 10:57:32,807  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 10:57:32,808  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:57:32,809  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:57:32,811  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 10:57:32,812  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 10:57:32,821  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 10:57:32,822  INFO WebLogAspect:59 ---- SPEND TIME: 15
+2017-06-27 10:57:34,649  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 10:57:34,652  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 10:57:34,653  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 10:57:34,654  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 10:57:34,655  INFO WebLogAspect:52 ---- ARGS : [abc]
+2017-06-27 11:11:02,097  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1180 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 11:11:02,099 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 11:11:02,100  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 11:11:09,487  INFO DemoApplication:57 ---- Started DemoApplication in 7.711 seconds (JVM running for 7.949)
+2017-06-27 11:11:14,906  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 11:11:14,907  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 11:11:14,908  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 11:11:14,910  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 11:11:14,911  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 11:11:14,924  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 11:11:14,924  INFO WebLogAspect:59 ---- SPEND TIME: 18
+2017-06-27 11:11:16,238  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/jdbc/getUser
+2017-06-27 11:11:16,241  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 11:11:16,242  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 11:11:16,242  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.getUser
+2017-06-27 11:11:16,243  INFO WebLogAspect:52 ---- ARGS : [abc]
+2017-06-27 11:11:16,795  INFO WebLogAspect:58 ---- RESPONSE: com.example.bean.User@234352aa
+2017-06-27 11:11:16,795  INFO WebLogAspect:59 ---- SPEND TIME: 557
+2017-06-27 11:12:08,678  INFO JdbcTemplateTest:48 ---- Starting JdbcTemplateTest on AJBC-1779 with PID 4936 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 11:12:08,680 DEBUG JdbcTemplateTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 11:12:08,681  INFO JdbcTemplateTest:664 ---- The following profiles are active: dev
+2017-06-27 11:38:24,414  INFO UserMapperTest:48 ---- Starting UserMapperTest on AJBC-1779 with PID 4444 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 11:38:24,417 DEBUG UserMapperTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 11:38:24,420  INFO UserMapperTest:664 ---- The following profiles are active: dev
+2017-06-27 11:39:10,437  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 3232 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 11:39:10,440 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 11:39:10,441  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 11:39:18,486  INFO DemoApplication:57 ---- Started DemoApplication in 8.379 seconds (JVM running for 8.636)
+2017-06-27 11:42:03,545  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5152 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 11:42:03,552 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 11:42:03,555  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 11:42:37,155  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 6064 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 11:42:37,157 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 11:42:37,158  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 13:52:50,517  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4008 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 13:52:50,519 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 13:52:50,519  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 13:54:20,541  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1216 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 13:54:20,545 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 13:54:20,545  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 13:54:27,745  INFO DemoApplication:57 ---- Started DemoApplication in 7.513 seconds (JVM running for 7.785)
+2017-06-27 13:54:45,159  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 13:54:45,159  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 13:54:45,160  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 13:54:45,163  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 13:54:45,163  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 13:54:45,176  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 13:54:45,176  INFO WebLogAspect:59 ---- SPEND TIME: 18
+2017-06-27 13:54:47,287  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/mapper/getUser
+2017-06-27 13:54:47,291  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 13:54:47,292  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 13:54:47,293  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.get
+2017-06-27 13:54:47,297  INFO WebLogAspect:52 ---- ARGS : [abc]
+2017-06-27 13:54:47,821 DEBUG getUser:145 ---- ==>  Preparing: SELECT * FROM user WHERE name=? 
+2017-06-27 13:54:47,840 DEBUG getUser:145 ---- ==> Parameters: abc(String)
+2017-06-27 13:54:47,853 DEBUG getUser:145 ---- <==      Total: 1
+2017-06-27 13:54:47,854  INFO WebLogAspect:58 ---- RESPONSE: com.example.bean.User@7cd9611c
+2017-06-27 13:54:47,855  INFO WebLogAspect:59 ---- SPEND TIME: 568
+2017-06-27 13:54:58,325  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/mapper/getUser
+2017-06-27 13:54:58,326  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 13:54:58,326  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 13:54:58,326  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.get
+2017-06-27 13:54:58,326  INFO WebLogAspect:52 ---- ARGS : [查子琴]
+2017-06-27 13:54:58,327 DEBUG getUser:145 ---- ==>  Preparing: SELECT * FROM user WHERE name=? 
+2017-06-27 13:54:58,327 DEBUG getUser:145 ---- ==> Parameters: 查子琴(String)
+2017-06-27 13:54:58,332 DEBUG getUser:145 ---- <==      Total: 1
+2017-06-27 13:54:58,333  INFO WebLogAspect:58 ---- RESPONSE: com.example.bean.User@6beb3552
+2017-06-27 13:54:58,333  INFO WebLogAspect:59 ---- SPEND TIME: 8
+2017-06-27 13:55:23,306  INFO UserMapperTest:48 ---- Starting UserMapperTest on AJBC-1779 with PID 4332 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 13:55:23,310 DEBUG UserMapperTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 13:55:23,312  INFO UserMapperTest:664 ---- The following profiles are active: dev
+2017-06-27 13:59:55,493  INFO UserMapperTest:48 ---- Starting UserMapperTest on AJBC-1779 with PID 1708 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 13:59:55,498 DEBUG UserMapperTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 13:59:55,498  INFO UserMapperTest:664 ---- The following profiles are active: dev
+2017-06-27 14:00:02,776  INFO UserMapperTest:57 ---- Started UserMapperTest in 7.603 seconds (JVM running for 8.111)
+2017-06-27 14:00:04,383 DEBUG getUser:145 ---- ==>  Preparing: SELECT * FROM user WHERE name=? 
+2017-06-27 14:00:04,407 DEBUG getUser:145 ---- ==> Parameters: 查子琴(String)
+2017-06-27 14:00:04,421 DEBUG getUser:145 ---- <==      Total: 1
+2017-06-27 14:26:47,661  INFO UserMapperTest:48 ---- Starting UserMapperTest on AJBC-1779 with PID 236 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 14:26:47,664 DEBUG UserMapperTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 14:26:47,665  INFO UserMapperTest:664 ---- The following profiles are active: dev
+2017-06-27 14:26:54,752  INFO UserMapperTest:57 ---- Started UserMapperTest in 7.388 seconds (JVM running for 7.846)
+2017-06-27 14:26:55,303 DEBUG getUser:145 ---- ==>  Preparing: SELECT * FROM user WHERE name=? 
+2017-06-27 14:26:55,334 DEBUG getUser:145 ---- ==> Parameters: 查子琴(String)
+2017-06-27 14:26:55,353 DEBUG getUser:145 ---- <==      Total: 1
+2017-06-27 14:33:40,207  INFO UserMapperTest:48 ---- Starting UserMapperTest on AJBC-1779 with PID 3920 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 14:33:40,210 DEBUG UserMapperTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 14:33:40,210  INFO UserMapperTest:664 ---- The following profiles are active: dev
+2017-06-27 14:33:47,101  INFO UserMapperTest:57 ---- Started UserMapperTest in 7.148 seconds (JVM running for 7.625)
+2017-06-27 14:33:47,596 DEBUG addUser:145 ---- ==>  Preparing: INSERT INTO user(name,age) VALUES(?,?) 
+2017-06-27 14:33:47,612 DEBUG addUser:145 ---- ==> Parameters: 阿萨德(String), 30(Integer)
+2017-06-27 14:33:47,922 DEBUG addUser:145 ---- <==    Updates: 1
+2017-06-27 14:33:47,924 DEBUG getUser:145 ---- ==>  Preparing: SELECT * FROM user WHERE name=? 
+2017-06-27 14:33:47,924 DEBUG getUser:145 ---- ==> Parameters: 查子琴(String)
+2017-06-27 14:33:47,941 DEBUG getUser:145 ---- <==      Total: 1
+2017-06-27 14:33:47,942 DEBUG delete:145 ---- ==>  Preparing: DELETE FROM user WHERE name=? 
+2017-06-27 14:33:47,942 DEBUG delete:145 ---- ==> Parameters: 李四(String)
+2017-06-27 14:33:48,133 DEBUG delete:145 ---- <==    Updates: 1
+2017-06-27 14:33:48,134 DEBUG getAllUser:145 ---- ==>  Preparing: SELECT * FROM user 
+2017-06-27 14:33:48,135 DEBUG getAllUser:145 ---- ==> Parameters: 
+2017-06-27 14:33:48,147 DEBUG getAllUser:145 ---- <==      Total: 5
+2017-06-27 15:12:35,166  INFO UserMapperTest:48 ---- Starting UserMapperTest on AJBC-1779 with PID 5936 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 15:12:35,169 DEBUG UserMapperTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 15:12:35,169  INFO UserMapperTest:664 ---- The following profiles are active: dev
+2017-06-27 15:12:42,401  INFO UserMapperTest:57 ---- Started UserMapperTest in 7.583 seconds (JVM running for 8.092)
+2017-06-27 15:12:43,110 DEBUG getUser:145 ---- ==>  Preparing: SELECT * FROM user WHERE name=? 
+2017-06-27 15:12:43,127 DEBUG getUser:145 ---- ==> Parameters: 查子琴(String)
+2017-06-27 15:12:43,142 DEBUG getUser:145 ---- <==      Total: 1
+2017-06-27 15:12:43,144 DEBUG getAllUser:145 ---- ==>  Preparing: SELECT * FROM user 
+2017-06-27 15:12:43,144 DEBUG getAllUser:145 ---- ==> Parameters: 
+2017-06-27 15:12:43,146 DEBUG getAllUser:145 ---- <==      Total: 5
+2017-06-27 15:12:43,146 DEBUG getUserInfo:145 ---- ==>  Preparing: SELECT * From user,user_state Where user.id=user_state.id 
+2017-06-27 15:12:43,147 DEBUG getUserInfo:145 ---- ==> Parameters: 
+2017-06-27 15:12:43,150 DEBUG getUserInfo:145 ---- <==      Total: 2
+2017-06-27 15:30:41,798  INFO RedisTest:48 ---- Starting RedisTest on AJBC-1779 with PID 884 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 15:30:41,800 DEBUG RedisTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 15:30:41,801  INFO RedisTest:664 ---- The following profiles are active: dev
+2017-06-27 15:31:01,769  INFO RedisTest:48 ---- Starting RedisTest on AJBC-1779 with PID 4124 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 15:31:01,771 DEBUG RedisTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 15:31:01,772  INFO RedisTest:664 ---- The following profiles are active: dev
+2017-06-27 15:31:09,111  INFO RedisTest:57 ---- Started RedisTest in 7.686 seconds (JVM running for 8.179)
+2017-06-27 15:32:50,297  INFO RedisTest:48 ---- Starting RedisTest on AJBC-1779 with PID 1688 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 15:32:50,300 DEBUG RedisTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 15:32:50,300  INFO RedisTest:664 ---- The following profiles are active: dev
+2017-06-27 15:32:57,611  INFO RedisTest:57 ---- Started RedisTest in 7.715 seconds (JVM running for 8.243)
+2017-06-27 16:03:32,662  INFO RedisTest:48 ---- Starting RedisTest on AJBC-1779 with PID 3944 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 16:03:32,665 DEBUG RedisTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 16:03:32,665  INFO RedisTest:664 ---- The following profiles are active: dev
+2017-06-27 16:03:39,543  INFO RedisTest:57 ---- Started RedisTest in 7.248 seconds (JVM running for 7.749)
+2017-06-27 16:17:20,387  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-27 16:17:20,560  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-27 16:17:20,560  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-27 16:17:20,561  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-27 16:17:20,562  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-27 16:17:20,571  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-27 16:17:20,571  INFO WebLogAspect:59 ---- SPEND TIME: 195
+2017-06-27 16:17:31,419  INFO UserServiceAspect:46 ---- UserAspect()切入点的环绕通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-06-27 16:17:31,675  INFO UserServiceAspect:66 ---- 1  method()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-06-27 16:17:31,675  INFO UserServiceAspect:31 ---- UserAspect()切入点的前置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-06-27 16:17:31,902  INFO UserService:20 ---- 根据id获取用户信息
+2017-06-27 16:17:31,926  INFO UserServiceAspect:51 ---- around execution(User com.example.aspect.pointcut.UserService.getUser(Long))	Use time : 506 ms!
+2017-06-27 16:17:31,927  INFO UserServiceAspect:36 ---- UserAspect()切入点的后置通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-06-27 16:17:31,927  INFO UserServiceAspect:41 ---- UserAspect()切入点的返回后通知:execution(User com.example.aspect.pointcut.UserService.getUser(Long))
+2017-06-27 16:59:18,798  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5704 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 16:59:18,801 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 16:59:18,802  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:07:32,485  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3476 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:07:32,488 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:07:32,490  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:12:22,016  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3792 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:12:22,018 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:12:22,019  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:13:41,056  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3832 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:13:41,058 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:13:41,058  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:14:00,419  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 6052 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:14:00,423 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:14:00,427  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:17:58,567  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5332 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:17:58,574 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:17:58,575  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:19:11,603  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 1336 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:19:11,606 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:19:11,607  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:26:41,910  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5488 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:26:41,912 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:26:41,912  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 17:27:23,106  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 4252 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:27:23,107 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:27:23,108  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 17:28:04,286  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1760 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:28:04,288 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:28:04,288  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 17:28:50,531  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 2824 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:28:50,532 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:28:50,533  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 17:29:00,431  INFO DemoApplication:57 ---- Started DemoApplication in 10.219 seconds (JVM running for 10.473)
+2017-06-27 17:30:06,849  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3676 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:30:06,853 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:30:06,855  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:30:16,181  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.618 seconds (JVM running for 10.196)
+2017-06-27 17:31:48,767  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5700 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:31:48,769 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:31:48,770  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-27 17:32:00,177  INFO DemoApplication:57 ---- Started DemoApplication in 11.761 seconds (JVM running for 12.066)
+2017-06-27 17:36:12,011  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 4840 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:36:12,014 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:36:12,015  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:36:21,199  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.464 seconds (JVM running for 9.984)
+2017-06-27 17:37:00,256  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3032 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:37:00,268 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:37:00,270  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:37:10,303  INFO DataJpaTest:57 ---- Started DataJpaTest in 10.332 seconds (JVM running for 10.886)
+2017-06-27 17:37:44,414  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 1112 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:37:44,417 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:37:44,418  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:37:52,889  INFO DataJpaTest:57 ---- Started DataJpaTest in 8.781 seconds (JVM running for 9.297)
+2017-06-27 17:38:53,173  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3592 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:38:53,177 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:38:53,179  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:39:02,564  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.678 seconds (JVM running for 10.225)
+2017-06-27 17:39:38,578  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 2556 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:39:38,581 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:39:38,581  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:39:48,287  INFO DataJpaTest:57 ---- Started DataJpaTest in 10.028 seconds (JVM running for 10.566)
+2017-06-27 17:40:12,716  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3452 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:40:12,721 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:40:12,726  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:40:22,032  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.607 seconds (JVM running for 10.112)
+2017-06-27 17:42:25,537  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5736 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:42:25,540 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:42:25,540  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:42:34,254  INFO DataJpaTest:57 ---- Started DataJpaTest in 8.989 seconds (JVM running for 9.516)
+2017-06-27 17:44:48,927  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5372 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:44:48,930 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:44:48,933  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:44:58,154  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.525 seconds (JVM running for 10.046)
+2017-06-27 17:45:54,434  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5568 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:45:54,438 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:45:54,440  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:46:03,677  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.497 seconds (JVM running for 10.066)
+2017-06-27 17:47:59,001  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3608 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-27 17:47:59,005 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-27 17:47:59,006  INFO DataJpaTest:664 ---- The following profiles are active: dev
+2017-06-27 17:48:08,234  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.549 seconds (JVM running for 10.117)

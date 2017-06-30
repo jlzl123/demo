@@ -1,119 +1,75 @@
-2017-06-28 08:53:02,985  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5984 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 08:53:03,259 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 08:53:03,259  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 08:53:15,706  INFO DataJpaTest:57 ---- Started DataJpaTest in 13.107 seconds (JVM running for 14.0)
-2017-06-28 09:00:48,712  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 6092 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:00:48,715 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:00:48,717  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:00:58,254  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.849 seconds (JVM running for 10.364)
-2017-06-28 09:01:59,056  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 1136 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:01:59,059 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:01:59,059  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:02:08,177  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.426 seconds (JVM running for 10.012)
-2017-06-28 09:08:48,924  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5420 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:08:48,927 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:08:48,928  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:08:58,368  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.721 seconds (JVM running for 10.21)
-2017-06-28 09:13:09,524  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5016 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:13:09,527 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:13:09,527  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:13:18,714  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.459 seconds (JVM running for 9.979)
-2017-06-28 09:14:06,603  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3432 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:14:06,606 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:14:06,608  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:14:16,222  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.894 seconds (JVM running for 10.452)
-2017-06-28 09:15:30,645  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3376 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:15:30,655 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:15:30,655  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:15:40,240  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.911 seconds (JVM running for 10.433)
-2017-06-28 09:16:03,559  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 4156 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:16:03,562 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:16:03,563  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 09:16:13,228  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.921 seconds (JVM running for 10.447)
-2017-06-28 09:59:34,287  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3608 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 09:59:34,290 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 09:59:34,291  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:01:19,693  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 4380 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:01:19,698 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:01:19,702  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:01:52,147  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 5304 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:01:52,150 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:01:52,151  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:02:38,722  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 4400 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:02:38,725 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:02:38,725  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:02:48,084  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.631 seconds (JVM running for 10.132)
-2017-06-28 10:07:15,262  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 1996 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:07:15,265 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:07:15,266  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:07:24,903  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.948 seconds (JVM running for 10.434)
-2017-06-28 10:08:01,750  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 6004 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:08:01,755 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:08:01,757  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:08:10,850  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.375 seconds (JVM running for 9.881)
-2017-06-28 10:11:51,202  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 2132 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:11:51,223 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:11:51,226  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:12:00,758  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.875 seconds (JVM running for 10.38)
-2017-06-28 10:17:36,498  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 2824 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:17:36,501 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:17:36,501  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:17:46,139  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.922 seconds (JVM running for 10.41)
-2017-06-28 10:19:24,899  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 364 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:19:24,905 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:19:24,905  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:19:34,380  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.764 seconds (JVM running for 10.254)
-2017-06-28 10:20:18,328  INFO DataJpaTest:48 ---- Starting DataJpaTest on AJBC-1779 with PID 3756 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:20:18,331 DEBUG DataJpaTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:20:18,331  INFO DataJpaTest:664 ---- The following profiles are active: dev
-2017-06-28 10:20:27,724  INFO DataJpaTest:57 ---- Started DataJpaTest in 9.827 seconds (JVM running for 10.299)
-2017-06-28 10:47:57,231  INFO TransactionTest:48 ---- Starting TransactionTest on AJBC-1779 with PID 6132 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:47:57,234 DEBUG TransactionTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:47:57,237  INFO TransactionTest:664 ---- The following profiles are active: dev
-2017-06-28 10:48:07,209  INFO TransactionTest:57 ---- Started TransactionTest in 10.241 seconds (JVM running for 10.725)
-2017-06-28 10:49:14,938  INFO TransactionTest:48 ---- Starting TransactionTest on AJBC-1779 with PID 3176 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:49:14,941 DEBUG TransactionTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:49:14,944  INFO TransactionTest:664 ---- The following profiles are active: dev
-2017-06-28 10:49:24,483  INFO TransactionTest:57 ---- Started TransactionTest in 9.82 seconds (JVM running for 10.379)
-2017-06-28 10:50:41,604  INFO TransactionTest:48 ---- Starting TransactionTest on AJBC-1779 with PID 5436 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 10:50:41,608 DEBUG TransactionTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 10:50:41,610  INFO TransactionTest:664 ---- The following profiles are active: dev
-2017-06-28 10:50:51,548  INFO TransactionTest:57 ---- Started TransactionTest in 10.217 seconds (JVM running for 10.735)
-2017-06-28 11:08:42,263  INFO BookServiceTest:48 ---- Starting BookServiceTest on AJBC-1779 with PID 5812 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 11:08:42,267 DEBUG BookServiceTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 11:08:42,267  INFO BookServiceTest:664 ---- The following profiles are active: dev
-2017-06-28 11:08:51,914  INFO BookServiceTest:57 ---- Started BookServiceTest in 9.908 seconds (JVM running for 10.414)
-2017-06-28 11:09:22,408  INFO BookServiceTest:48 ---- Starting BookServiceTest on AJBC-1779 with PID 4372 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 11:09:22,412 DEBUG BookServiceTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 11:09:22,414  INFO BookServiceTest:664 ---- The following profiles are active: dev
-2017-06-28 11:09:31,856  INFO BookServiceTest:57 ---- Started BookServiceTest in 9.74 seconds (JVM running for 10.218)
-2017-06-28 11:37:24,601  INFO BookServiceTest:48 ---- Starting BookServiceTest on AJBC-1779 with PID 4064 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 11:37:24,604 DEBUG BookServiceTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 11:37:24,605  INFO BookServiceTest:664 ---- The following profiles are active: dev
-2017-06-28 11:37:34,640  INFO BookServiceTest:57 ---- Started BookServiceTest in 10.293 seconds (JVM running for 10.804)
-2017-06-28 15:56:30,439  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1236 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
-2017-06-28 15:56:30,458 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
-2017-06-28 15:56:30,459  INFO DemoApplication:664 ---- The following profiles are active: dev
-2017-06-28 15:56:42,497  INFO DemoApplication:57 ---- Started DemoApplication in 12.422 seconds (JVM running for 12.723)
-2017-06-28 15:57:04,960  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
-2017-06-28 15:57:04,960  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
-2017-06-28 15:57:04,961  INFO WebLogAspect:49 ---- IP: 127.0.0.1
-2017-06-28 15:57:04,966  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
-2017-06-28 15:57:04,967  INFO WebLogAspect:52 ---- ARGS : []
-2017-06-28 15:57:04,983  INFO WebLogAspect:58 ---- RESPONSE: login
-2017-06-28 15:57:04,985  INFO WebLogAspect:59 ---- SPEND TIME: 24
-2017-06-28 15:57:06,228  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
-2017-06-28 15:57:06,229  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
-2017-06-28 15:57:06,229  INFO WebLogAspect:49 ---- IP: 127.0.0.1
-2017-06-28 15:57:06,230  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
-2017-06-28 15:57:06,230  INFO WebLogAspect:52 ---- ARGS : []
-2017-06-28 15:57:06,231  INFO WebLogAspect:58 ---- RESPONSE: login
-2017-06-28 15:57:06,231  INFO WebLogAspect:59 ---- SPEND TIME: 3
-2017-06-28 15:57:07,673  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/log
-2017-06-28 15:57:07,674  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
-2017-06-28 15:57:07,675  INFO WebLogAspect:49 ---- IP: 127.0.0.1
-2017-06-28 15:57:07,677  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.testLog
-2017-06-28 15:57:07,677  INFO WebLogAspect:52 ---- ARGS : []
-2017-06-28 15:57:07,678  INFO TestController:47 ---- ******处理测试日志请求******
-2017-06-28 15:57:07,679  INFO WebLogAspect:58 ---- RESPONSE: 测试日志
-2017-06-28 15:57:07,680  INFO WebLogAspect:59 ---- SPEND TIME: 7
+2017-06-30 09:34:44,287  INFO StateMachineTest:48 ---- Starting StateMachineTest on AJBC-1779 with PID 984 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-30 09:34:44,332 DEBUG StateMachineTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-30 09:34:44,333  INFO StateMachineTest:664 ---- The following profiles are active: dev
+2017-06-30 09:35:00,435  INFO StateMachineTest:57 ---- Started StateMachineTest in 16.465 seconds (JVM running for 17.02)
+2017-06-30 09:35:00,449  INFO SchduledTasks:19 ---- 2017-06-30 09:35:00 星期五
+2017-06-30 09:35:00,583  INFO StateMachineConfig$$EnhancerBySpringCGLIB$$269862e3:75 ---- 用户完成支付，待收货
+2017-06-30 09:35:00,587  INFO StateMachineConfig$$EnhancerBySpringCGLIB$$269862e3:80 ---- 用户已收货，订单完成
+2017-06-30 09:37:26,232  INFO StateMachineTest:48 ---- Starting StateMachineTest on AJBC-1779 with PID 3728 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-30 09:37:26,235 DEBUG StateMachineTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-30 09:37:26,236  INFO StateMachineTest:664 ---- The following profiles are active: dev
+2017-06-30 09:37:39,670  INFO SchduledTasks:19 ---- 2017-06-30 09:37:39 星期五
+2017-06-30 09:37:39,673  INFO StateMachineTest:57 ---- Started StateMachineTest in 13.768 seconds (JVM running for 14.302)
+2017-06-30 09:37:39,742  INFO StateMachineConfig$$EnhancerBySpringCGLIB$$269862e3:69 ---- 订单创建，待付款
+2017-06-30 09:37:39,760  INFO StateMachineConfig$$EnhancerBySpringCGLIB$$269862e3:75 ---- 用户完成支付，待收货
+2017-06-30 09:37:39,761  INFO StateMachineConfig$$EnhancerBySpringCGLIB$$269862e3:80 ---- 用户已收货，订单完成
+2017-06-30 09:52:55,579  INFO StateMachineTest:48 ---- Starting StateMachineTest on AJBC-1779 with PID 5888 (D:\Users\004\springCloud\demo\target\test-classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-30 09:52:55,583 DEBUG StateMachineTest:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-30 09:52:55,583  INFO StateMachineTest:664 ---- The following profiles are active: dev
+2017-06-30 09:53:09,447  INFO StateMachineTest:57 ---- Started StateMachineTest in 14.2 seconds (JVM running for 14.723)
+2017-06-30 09:53:09,456  INFO SchduledTasks:19 ---- 2017-06-30 09:53:09 星期五
+2017-06-30 09:53:09,509  INFO EventConfig$$EnhancerBySpringCGLIB$$e13ab39b:15 ---- 订单创建，待付款
+2017-06-30 09:53:09,511  INFO EventConfig$$EnhancerBySpringCGLIB$$e13ab39b:20 ---- 用户完成支付，待收货
+2017-06-30 09:53:09,513  INFO EventConfig$$EnhancerBySpringCGLIB$$e13ab39b:25 ---- 用户已收货，订单完成
+2017-06-30 10:06:47,826  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 5236 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-30 10:06:47,828 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-30 10:06:47,829  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-30 10:07:04,574  INFO SchduledTasks:19 ---- 2017-06-30 10:07:04 星期五
+2017-06-30 10:07:04,767  INFO DemoApplication:57 ---- Started DemoApplication in 17.307 seconds (JVM running for 17.75)
+2017-06-30 10:08:04,569  INFO SchduledTasks:19 ---- 2017-06-30 10:08:04 星期五
+2017-06-30 10:11:30,628  INFO DemoApplication:48 ---- Starting DemoApplication on AJBC-1779 with PID 1296 (D:\Users\004\springCloud\demo\target\classes started by liushihua in D:\Users\004\springCloud\demo)
+2017-06-30 10:11:30,630 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.3.8.RELEASE, Spring v4.2.8.RELEASE
+2017-06-30 10:11:30,631  INFO DemoApplication:664 ---- The following profiles are active: dev
+2017-06-30 10:11:48,165  INFO SchduledTasks:19 ---- 2017-06-30 10:11:48 星期五
+2017-06-30 10:11:48,272  INFO DemoApplication:57 ---- Started DemoApplication in 17.964 seconds (JVM running for 18.298)
+2017-06-30 10:12:48,147  INFO SchduledTasks:19 ---- 2017-06-30 10:12:48 星期五
+2017-06-30 10:13:48,146  INFO SchduledTasks:19 ---- 2017-06-30 10:13:48 星期五
+2017-06-30 10:14:48,147  INFO SchduledTasks:19 ---- 2017-06-30 10:14:48 星期五
+2017-06-30 10:15:48,152  INFO SchduledTasks:19 ---- 2017-06-30 10:15:48 星期五
+2017-06-30 10:16:48,156  INFO SchduledTasks:19 ---- 2017-06-30 10:16:48 星期五
+2017-06-30 10:17:48,160  INFO SchduledTasks:19 ---- 2017-06-30 10:17:48 星期五
+2017-06-30 10:18:37,158  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-30 10:18:37,159  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-30 10:18:37,159  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-30 10:18:37,160  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-30 10:18:37,161  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-30 10:18:37,177  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-30 10:18:37,178  INFO WebLogAspect:59 ---- SPEND TIME: 20
+2017-06-30 10:18:41,475  INFO WebLogAspect:47 ---- URL: http://127.0.0.1:8080/login
+2017-06-30 10:18:41,476  INFO WebLogAspect:48 ---- HTTP_METHOD: GET
+2017-06-30 10:18:41,476  INFO WebLogAspect:49 ---- IP: 127.0.0.1
+2017-06-30 10:18:41,476  INFO WebLogAspect:50 ---- CLASS_METHOD: com.example.web.TestController.login
+2017-06-30 10:18:41,476  INFO WebLogAspect:52 ---- ARGS : []
+2017-06-30 10:18:41,476  INFO WebLogAspect:58 ---- RESPONSE: login
+2017-06-30 10:18:41,477  INFO WebLogAspect:59 ---- SPEND TIME: 2
+2017-06-30 10:18:48,164  INFO SchduledTasks:19 ---- 2017-06-30 10:18:48 星期五
+2017-06-30 10:19:48,169  INFO SchduledTasks:19 ---- 2017-06-30 10:19:48 星期五
+2017-06-30 10:20:48,173  INFO SchduledTasks:19 ---- 2017-06-30 10:20:48 星期五
+2017-06-30 10:21:48,177  INFO SchduledTasks:19 ---- 2017-06-30 10:21:48 星期五
+2017-06-30 10:22:48,181  INFO SchduledTasks:19 ---- 2017-06-30 10:22:48 星期五
+2017-06-30 10:23:48,185  INFO SchduledTasks:19 ---- 2017-06-30 10:23:48 星期五
+2017-06-30 10:24:48,189  INFO SchduledTasks:19 ---- 2017-06-30 10:24:48 星期五
+2017-06-30 10:25:48,194  INFO SchduledTasks:19 ---- 2017-06-30 10:25:48 星期五
+2017-06-30 10:26:48,198  INFO SchduledTasks:19 ---- 2017-06-30 10:26:48 星期五
+2017-06-30 10:27:48,202  INFO SchduledTasks:19 ---- 2017-06-30 10:27:48 星期五
+2017-06-30 10:28:48,206  INFO SchduledTasks:19 ---- 2017-06-30 10:28:48 星期五
+2017-06-30 10:29:48,210  INFO SchduledTasks:19 ---- 2017-06-30 10:29:48 星期五
+2017-06-30 10:30:48,214  INFO SchduledTasks:19 ---- 2017-06-30 10:30:48 星期五
+2017-06-30 10:31:48,219  INFO SchduledTasks:19 ---- 2017-06-30 10:31:48 星期五
+2017-06-30 10:32:48,223  INFO SchduledTasks:19 ---- 2017-06-30 10:32:48 星期五
+2017-06-30 10:33:48,227  INFO SchduledTasks:19 ---- 2017-06-30 10:33:48 星期五
+2017-06-30 10:34:48,231  INFO SchduledTasks:19 ---- 2017-06-30 10:34:48 星期五
+2017-06-30 10:35:48,235  INFO SchduledTasks:19 ---- 2017-06-30 10:35:48 星期五
+2017-06-30 10:36:48,240  INFO SchduledTasks:19 ---- 2017-06-30 10:36:48 星期五
+2017-06-30 10:37:48,244  INFO SchduledTasks:19 ---- 2017-06-30 10:37:48 星期五
+2017-06-30 10:38:48,245  INFO SchduledTasks:19 ---- 2017-06-30 10:38:48 星期五

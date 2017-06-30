@@ -1,10 +1,12 @@
 package com.example.dao;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
@@ -21,18 +23,28 @@ public class DataJpaTest {
 //	private UserRepository userRepository;
 	@Autowired
 	private BookRepository bookRepository;
+	@Autowired
+	private CacheManager cacheManager;
+	
+	@Before
+	public void before(){
+		bookRepository.save(new Book("AAAA", 10));
+	}
 	
 	@Test
 	public void test(){
-//		Assert.assertEquals(userRepository.findByName("zzq").getName(), "zzq");
-		System.out.println(bookRepository.findByName("java").getPrice());
-//		Assert.assertEquals(bookRepository.findByName("java").getPrice(),10.0f);
-//		Assert.assertEquals(10.0f, bookRepository.findByName("java").getPrice(), 1);
-		Book book=new Book();
-		book.setId(1l);
-		book.setName("java");
-		book.setPrice(10);
-//		Assert.assertEquals(bookRepository.findByName("java").getName(), "java");
-		Assert.assertEquals(bookRepository.findBook("java").getName(),"java");
+//		Assert.assertEquals(bookRepository.findBook("java").getName(),"java");
+		
+		Book book=bookRepository.findByName("AAAA");
+		System.out.println("第一次查询："+book.getPrice());
+		
+		Book b=bookRepository.findByName("AAAA");
+		System.out.println("第二次查询："+b.getPrice());
+		
+		book.setPrice(200);
+		bookRepository.save(book);
+		
+		Book b3=bookRepository.findByName("AAAA");
+		System.out.println("第三次查询："+b3.getPrice());
 	}
 }
